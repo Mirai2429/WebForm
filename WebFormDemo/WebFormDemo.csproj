@@ -68,8 +68,46 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="img\TrangChu\chuyen_ke_cho_be.jpg" />
+    <Content Include="img\TrangChu\co_hoc_tinh_hoa.jpg" />
+    <Content Include="img\TrangChu\doan_tuyet.jpg" />
+    <Content Include="img\TrangChu\giai_thich_thanh_ngu.jpg" />
+    <Content Include="img\TrangChu\giong_to.jpg" />
+    <Content Include="img\TrangChu\hong_lau_mong.jpg" />
+    <Content Include="img\TrangChu\phong_than_dien_nghia.jpg" />
+    <Content Include="img\TrangChu\song_mon.jpg" />
+    <Content Include="img\TrangChu\so_do.jpg" />
+    <Content Include="img\TrangChu\tam_quoc_dien_nghia.jpg" />
+    <Content Include="img\TrangChu\tat_den.jpg" />
+    <Content Include="img\TrangChu\truyen_ngan_nam_cao.jpg" />
+    <Content Include="img\TrangChu\viet_nam_su_luoc.jpg" />
     <Content Include="kiemtra.js" />
     <Content Include="thongbaoloi.html" />
+    <Content Include="TrangChu\ChuyenKeChoBe\Chapter\chang-trai-mo-coi.aspx" />
+    <Content Include="TrangChu\ChuyenKeChoBe\Chapter\chu-voi-tot-bung.aspx" />
+    <Content Include="TrangChu\ChuyenKeChoBe\Chapter\con-ca-thong-minh.aspx" />
+    <Content Include="TrangChu\ChuyenKeChoBe\Chapter\con-coc-la-cau-ong-troi.aspx" />
+    <Content Include="TrangChu\ChuyenKeChoBe\Chapter\doi-ngong.aspx" />
+    <Content Include="TrangChu\ChuyenKeChoBe\Chapter\loi-yeu-cua-con.aspx" />
+    <Content Include="TrangChu\ChuyenKeChoBe\Chapter\story.css" />
+    <Content Include="TrangChu\ChuyenKeChoBe\Chapter\su-tich-hoa-mai-vang.aspx" />
+    <Content Include="TrangChu\ChuyenKeChoBe\ChuyenKeChoBe.aspx" />
+    <Content Include="TrangChu\ChuyenKeChoBe\ChuyenKeChoBe.css" />
+    <Content Include="TrangChu\TrangChu.aspx" />
+    <Content Include="TrangChu\TrangChu.css" />
+    <Content Include="TrangChu\TruyenNganNamCao\Chapter\cai-chet-cua-con-muc.aspx" />
+    <Content Include="TrangChu\TruyenNganNamCao\Chapter\chi-pheo.aspx" />
+    <Content Include="TrangChu\TruyenNganNamCao\Chapter\dieu-van.aspx" />
+    <Content Include="TrangChu\TruyenNganNamCao\Chapter\lao-hac.aspx" />
+    <Content Include="TrangChu\TruyenNganNamCao\Chapter\mot-dam-cuoi.aspx" />
+    <Content Include="TrangChu\TruyenNganNamCao\Chapter\ngheo.aspx" />
+    <Content Include="TrangChu\TruyenNganNamCao\Chapter\trang-sang.aspx" />
+    <Content Include="TrangChu\TruyenNganNamCao\TruyenNganNamCao.aspx" />
+    <Content Include="TrangChu\TruyenNganNamCao\TruyenNganNamCao.css" />
+    <Content Include="VanHocNuocNgoai\VanHocNuocNgoai.aspx" />
+    <Content Include="VanHocNuocNgoai\VanHocNuocNgoai.css" />
+    <Content Include="VanHocVietNam\VanHocVietNam.aspx" />
+    <Content Include="VanHocVietNam\VanHocVietNam.css" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
@@ -79,6 +117,139 @@
     </Compile>
     <Compile Include="NhanVien.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TrangChu\ChuyenKeChoBe\Chapter\chang-trai-mo-coi.aspx.cs">
+      <DependentUpon>chang-trai-mo-coi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\ChuyenKeChoBe\Chapter\chang-trai-mo-coi.aspx.designer.cs">
+      <DependentUpon>chang-trai-mo-coi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\ChuyenKeChoBe\Chapter\chu-voi-tot-bung.aspx.cs">
+      <DependentUpon>chu-voi-tot-bung.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\ChuyenKeChoBe\Chapter\chu-voi-tot-bung.aspx.designer.cs">
+      <DependentUpon>chu-voi-tot-bung.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\ChuyenKeChoBe\Chapter\con-ca-thong-minh.aspx.cs">
+      <DependentUpon>con-ca-thong-minh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\ChuyenKeChoBe\Chapter\con-ca-thong-minh.aspx.designer.cs">
+      <DependentUpon>con-ca-thong-minh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\ChuyenKeChoBe\Chapter\con-coc-la-cau-ong-troi.aspx.cs">
+      <DependentUpon>con-coc-la-cau-ong-troi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\ChuyenKeChoBe\Chapter\con-coc-la-cau-ong-troi.aspx.designer.cs">
+      <DependentUpon>con-coc-la-cau-ong-troi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\ChuyenKeChoBe\Chapter\doi-ngong.aspx.cs">
+      <DependentUpon>doi-ngong.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\ChuyenKeChoBe\Chapter\doi-ngong.aspx.designer.cs">
+      <DependentUpon>doi-ngong.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\ChuyenKeChoBe\Chapter\loi-yeu-cua-con.aspx.cs">
+      <DependentUpon>loi-yeu-cua-con.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\ChuyenKeChoBe\Chapter\loi-yeu-cua-con.aspx.designer.cs">
+      <DependentUpon>loi-yeu-cua-con.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\ChuyenKeChoBe\Chapter\su-tich-hoa-mai-vang.aspx.cs">
+      <DependentUpon>su-tich-hoa-mai-vang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\ChuyenKeChoBe\Chapter\su-tich-hoa-mai-vang.aspx.designer.cs">
+      <DependentUpon>su-tich-hoa-mai-vang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\ChuyenKeChoBe\ChuyenKeChoBe.aspx.cs">
+      <DependentUpon>ChuyenKeChoBe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\ChuyenKeChoBe\ChuyenKeChoBe.aspx.designer.cs">
+      <DependentUpon>ChuyenKeChoBe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\TrangChu.aspx.cs">
+      <DependentUpon>TrangChu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\TrangChu.aspx.designer.cs">
+      <DependentUpon>TrangChu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\TruyenNganNamCao\Chapter\cai-chet-cua-con-muc.aspx.cs">
+      <DependentUpon>cai-chet-cua-con-muc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\TruyenNganNamCao\Chapter\cai-chet-cua-con-muc.aspx.designer.cs">
+      <DependentUpon>cai-chet-cua-con-muc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\TruyenNganNamCao\Chapter\chi-pheo.aspx.cs">
+      <DependentUpon>chi-pheo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\TruyenNganNamCao\Chapter\chi-pheo.aspx.designer.cs">
+      <DependentUpon>chi-pheo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\TruyenNganNamCao\Chapter\dieu-van.aspx.cs">
+      <DependentUpon>dieu-van.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\TruyenNganNamCao\Chapter\dieu-van.aspx.designer.cs">
+      <DependentUpon>dieu-van.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\TruyenNganNamCao\Chapter\lao-hac.aspx.cs">
+      <DependentUpon>lao-hac.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\TruyenNganNamCao\Chapter\lao-hac.aspx.designer.cs">
+      <DependentUpon>lao-hac.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\TruyenNganNamCao\Chapter\mot-dam-cuoi.aspx.cs">
+      <DependentUpon>mot-dam-cuoi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\TruyenNganNamCao\Chapter\mot-dam-cuoi.aspx.designer.cs">
+      <DependentUpon>mot-dam-cuoi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\TruyenNganNamCao\Chapter\ngheo.aspx.cs">
+      <DependentUpon>ngheo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\TruyenNganNamCao\Chapter\ngheo.aspx.designer.cs">
+      <DependentUpon>ngheo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\TruyenNganNamCao\Chapter\trang-sang.aspx.cs">
+      <DependentUpon>trang-sang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\TruyenNganNamCao\Chapter\trang-sang.aspx.designer.cs">
+      <DependentUpon>trang-sang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\TruyenNganNamCao\TruyenNganNamCao.aspx.cs">
+      <DependentUpon>TruyenNganNamCao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\TruyenNganNamCao\TruyenNganNamCao.aspx.designer.cs">
+      <DependentUpon>TruyenNganNamCao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VanHocNuocNgoai\VanHocNuocNgoai.aspx.cs">
+      <DependentUpon>VanHocNuocNgoai.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VanHocNuocNgoai\VanHocNuocNgoai.aspx.designer.cs">
+      <DependentUpon>VanHocNuocNgoai.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VanHocVietNam\VanHocVietNam.aspx.cs">
+      <DependentUpon>VanHocVietNam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VanHocVietNam\VanHocVietNam.aspx.designer.cs">
+      <DependentUpon>VanHocVietNam.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: antiquewhite;
+    background-color: #48D1CC;
     width: 100%;
     height: 100px;
     color: black;
@@ -19,7 +19,7 @@ header h1 {
 
 .menu a {
     text-decoration: none;
-    color: antiquewhite;
+    color: #48D1CC;
 }
 
 .menu ul {
@@ -39,7 +39,7 @@ header h1 {
 }
 
 .menu li:hover {
-    background-color: antiquewhite;
+    background-color: #48D1CC;
 }
 
 .menu li:hover a {
@@ -66,7 +66,7 @@ header h1 {
     display: block;
     text-align: center;
     padding: 15px 1px;
-    background-color: antiquewhite;
+    background-color: #48D1CC;
 }
 
 .menu ul li:hover .sub-menu a {
@@ -78,7 +78,7 @@ header h1 {
 }
 
 .menu ul li:hover .sub-menu li:hover a {
-    color: antiquewhite;
+    color: #48D1CC;
 }
 
 .content {
@@ -117,7 +117,7 @@ header h1 {
     padding: 20px;
     text-decoration: none;
     color: black;
-    background-color: aqua;
+    background-color: #48D1CC;
 }
 
 .book .book-content .btn:hover {
@@ -149,7 +149,7 @@ header h1 {
 
 .footer {
     display: block;
-    background-color: antiquewhite;
+    background-color: #48D1CC;
     margin-top: 150px;
 }
 
@@ -166,5 +166,5 @@ header h1 {
 
 .ft a {
     text-decoration: none;
-    color: blue;
+    color: bisque;
  }
