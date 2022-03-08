@@ -68,6 +68,40 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="img\ReviewSach\hinh1.PNG" />
+    <Content Include="img\ReviewSach\hinh10.PNG" />
+    <Content Include="img\ReviewSach\hinh2.PNG" />
+    <Content Include="img\ReviewSach\hinh3.PNG" />
+    <Content Include="img\ReviewSach\hinh4.PNG" />
+    <Content Include="img\ReviewSach\hinh5.PNG" />
+    <Content Include="img\ReviewSach\hinh6.PNG" />
+    <Content Include="img\ReviewSach\hinh7.PNG" />
+    <Content Include="img\ReviewSach\hinh8.PNG" />
+    <Content Include="img\ReviewSach\hinh9.PNG" />
+    <Content Include="img\ReviewXemNhieu\right_hinh1.PNG" />
+    <Content Include="img\ReviewXemNhieu\right_hinh2.PNG" />
+    <Content Include="img\ReviewXemNhieu\right_hinh3.PNG" />
+    <Content Include="img\ReviewXemNhieu\right_hinh4.PNG" />
+    <Content Include="img\SachHayNenDoc\hinh1.jpg" />
+    <Content Include="img\SachHayNenDoc\hinh10.jpg" />
+    <Content Include="img\SachHayNenDoc\hinh2.jpeg" />
+    <Content Include="img\SachHayNenDoc\hinh3.jpg" />
+    <Content Include="img\SachHayNenDoc\hinh4.jpeg" />
+    <Content Include="img\SachHayNenDoc\hinh5.jpg" />
+    <Content Include="img\SachHayNenDoc\hinh6.jpg" />
+    <Content Include="img\SachHayNenDoc\hinh7.jpg" />
+    <Content Include="img\SachHayNenDoc\hinh8.jpg" />
+    <Content Include="img\SachHayNenDoc\hinh9.jpg" />
+    <Content Include="img\TacGia\hinh1.jpg" />
+    <Content Include="img\TacGia\hinh10.jpg" />
+    <Content Include="img\TacGia\hinh2.jpg" />
+    <Content Include="img\TacGia\hinh3.jpeg" />
+    <Content Include="img\TacGia\hinh4.jpg" />
+    <Content Include="img\TacGia\hinh5.jpg" />
+    <Content Include="img\TacGia\hinh6.jpeg" />
+    <Content Include="img\TacGia\hinh7.jpg" />
+    <Content Include="img\TacGia\hinh8.jpg" />
+    <Content Include="img\TacGia\hinh9.jpg" />
     <Content Include="img\TrangChu\chuyen_ke_cho_be.jpg" />
     <Content Include="img\TrangChu\co_hoc_tinh_hoa.jpg" />
     <Content Include="img\TrangChu\doan_tuyet.jpg" />
@@ -81,7 +115,40 @@
     <Content Include="img\TrangChu\tat_den.jpg" />
     <Content Include="img\TrangChu\truyen_ngan_nam_cao.jpg" />
     <Content Include="img\TrangChu\viet_nam_su_luoc.jpg" />
+    <Content Include="img\TruyenCuoi\antrau.jpg" />
+    <Content Include="img\TruyenCuoi\chambien.jpg" />
+    <Content Include="img\TruyenCuoi\chua.jpg" />
+    <Content Include="img\TruyenCuoi\cung.jpg" />
+    <Content Include="img\TruyenCuoi\CUOI.jpg" />
+    <Content Include="img\TruyenCuoi\dangian.jpg" />
+    <Content Include="img\TruyenCuoi\ga.jpg" />
+    <Content Include="img\TruyenCuoi\haihuoc.jpg" />
+    <Content Include="img\TruyenCuoi\hay.jpg" />
+    <Content Include="img\TruyenCuoi\kengoc.jpg" />
+    <Content Include="img\TruyenCuoi\la.jpg" />
+    <Content Include="img\TruyenCuoi\lhe.jpg" />
+    <Content Include="img\TruyenCuoi\lon.jpg" />
+    <Content Include="img\TruyenCuoi\maybay.jpg" />
+    <Content Include="img\TruyenCuoi\meo.jpg" />
+    <Content Include="img\TruyenCuoi\nhat.jpg" />
+    <Content Include="img\TruyenCuoi\noen.jpg" />
+    <Content Include="img\TruyenCuoi\phuthuy.jpg" />
+    <Content Include="img\TruyenCuoi\quynh.jpg" />
+    <Content Include="img\TruyenCuoi\ran.jpg" />
+    <Content Include="img\TruyenCuoi\su.jpg" />
+    <Content Include="img\TruyenCuoi\t8.jpg" />
+    <Content Include="img\TruyenCuoi\to.jpg" />
+    <Content Include="img\TruyenCuoi\uoc.jpg" />
+    <Content Include="img\TruyenCuoi\voi.jpg" />
+    <Content Include="img\TruyenCuoi\yeu.jpg" />
     <Content Include="kiemtra.js" />
+    <Content Include="LienHe\LienHe.aspx" />
+    <Content Include="LienHe\LienHe.css" />
+    <Content Include="ReviewSach\ReviewSach.aspx" />
+    <Content Include="ReviewSach\ReviewSach.css" />
+    <Content Include="ReviewSach\SachHayNenDoc\SachHayNenDoc.aspx" />
+    <Content Include="ReviewSach\SachHayNenDoc\SachHayNenDoc.css" />
+    <Content Include="TacGia\TacGia.aspx" />
     <Content Include="thongbaoloi.html" />
     <Content Include="TrangChu\ChuyenKeChoBe\Chapter\chang-trai-mo-coi.aspx" />
     <Content Include="TrangChu\ChuyenKeChoBe\Chapter\chu-voi-tot-bung.aspx" />
@@ -104,6 +171,8 @@
     <Content Include="TrangChu\TruyenNganNamCao\Chapter\trang-sang.aspx" />
     <Content Include="TrangChu\TruyenNganNamCao\TruyenNganNamCao.aspx" />
     <Content Include="TrangChu\TruyenNganNamCao\TruyenNganNamCao.css" />
+    <Content Include="TruyenCuoi\TruyenCuoi.aspx" />
+    <Content Include="TruyenCuoi\TruyenCuoi.css" />
     <Content Include="VanHocNuocNgoai\VanHocNuocNgoai.aspx" />
     <Content Include="VanHocNuocNgoai\VanHocNuocNgoai.css" />
     <Content Include="VanHocVietNam\VanHocVietNam.aspx" />
@@ -115,8 +184,36 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="LienHe\LienHe.aspx.cs">
+      <DependentUpon>LienHe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LienHe\LienHe.aspx.designer.cs">
+      <DependentUpon>LienHe.aspx</DependentUpon>
+    </Compile>
     <Compile Include="NhanVien.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReviewSach\ReviewSach.aspx.cs">
+      <DependentUpon>ReviewSach.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReviewSach\ReviewSach.aspx.designer.cs">
+      <DependentUpon>ReviewSach.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReviewSach\SachHayNenDoc\SachHayNenDoc.aspx.cs">
+      <DependentUpon>SachHayNenDoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReviewSach\SachHayNenDoc\SachHayNenDoc.aspx.designer.cs">
+      <DependentUpon>SachHayNenDoc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TacGia\TacGia.aspx.cs">
+      <DependentUpon>TacGia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TacGia\TacGia.aspx.designer.cs">
+      <DependentUpon>TacGia.aspx</DependentUpon>
+    </Compile>
     <Compile Include="TrangChu\ChuyenKeChoBe\Chapter\chang-trai-mo-coi.aspx.cs">
       <DependentUpon>chang-trai-mo-coi.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -236,6 +333,13 @@
     <Compile Include="TrangChu\TruyenNganNamCao\TruyenNganNamCao.aspx.designer.cs">
       <DependentUpon>TruyenNganNamCao.aspx</DependentUpon>
     </Compile>
+    <Compile Include="TruyenCuoi\TruyenCuoi.aspx.cs">
+      <DependentUpon>TruyenCuoi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TruyenCuoi\TruyenCuoi.aspx.designer.cs">
+      <DependentUpon>TruyenCuoi.aspx</DependentUpon>
+    </Compile>
     <Compile Include="VanHocNuocNgoai\VanHocNuocNgoai.aspx.cs">
       <DependentUpon>VanHocNuocNgoai.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -267,6 +371,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

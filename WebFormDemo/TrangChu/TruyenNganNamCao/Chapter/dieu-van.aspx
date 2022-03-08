@@ -28,20 +28,20 @@
                 </li>
 
                 <li>
-                    <a href="#">
+                    <a href="/ReviewSach/ReviewSach.aspx">
                         Review Sách
                         <ul class="sub-menu">
-                            <li><a href="#">Sách Hay Nên Đọc</a></li>
+                            <li><a href="/ReviewSach/SachHayNenDoc/SachHayNenDoc.aspx">Sách Hay Nên Đọc</a></li>
                             <li><a href="#">Cafe Sách</a></li>
                         </ul>
                     </a>
                 </li>
 
-                <li><a href="#"> Tác Giả </a></li>
+                <li><a href="/TacGia/TacGia.aspx"> Tác Giả </a></li>
 
-                <li><a href="#"> Truyện Cười </a></li>
+                <li><a href="/TruyenCuoi/TruyenCuoi.aspx"> Truyện Cười </a></li>
 
-                <li><a href="#"> Liên Hệ </a></li>
+                <li><a href="/LienHe/LienHe.aspx"> Liên Hệ </a></li>
             </ul>
         </div>
 
@@ -52,18 +52,16 @@
             <br />
             <h2>Truyện Ngắn Nam Cao</h2>
 
-            <form name="selectchap" style="margin-top: 10px; margin-bottom: 10px;">
-                <select name="chap" onchange="location.href = document.forms['selectchap'].chap.value" style="font-size: 15px; width: 300px; max-width: 90%;">
-                    <option value="cai-chet-cua-con-muc.aspx" >Cái chết của con Mực </option>
-                    <option value="dieu-van.aspx" selected="selected">Điếu văn </option>
-                    <option value="chi-pheo.aspx">Chí Phèo </option>
-                    <option value="ngheo.aspx">Nghèo </option>
-                    <option value="mot-dam-cuoi.aspx">Một đám cưới </option>
-                    <option value="trang-sang.aspx">Trăng sáng </option>
-                    <option value="lao-hac.aspx">Lão Hạc </option>
-                </select>
-            </form>
-
+            <select  onchange="location=this.options[this.selectedIndex].value;" style="margin-top: 10px; margin-bottom: 10px; font-size: 15px; width: 300px; max-width: 90%;">
+                <option value="cai-chet-cua-con-muc.aspx" >Cái chết của con Mực </option>
+                <option value="dieu-van.aspx" selected="selected">Điếu văn </option>
+                <option value="chi-pheo.aspx">Chí Phèo </option>
+                <option value="ngheo.aspx">Nghèo </option>
+                <option value="mot-dam-cuoi.aspx">Một đám cưới </option>
+                <option value="trang-sang.aspx">Trăng sáng </option>
+                <option value="lao-hac.aspx">Lão Hạc </option>
+            </select>
+          
             <div class="main-content">
                 <p>Thế là xong. Anh chết rồi đấy nhỉ? Không lẽ tôi lại vui khi được một cái tin như thế. Nhưng thật tôi cũng không biết có nên buồn không đấy. Có người bảo: "Sống khổ đến đâu, cũng còn hơn chết; cái tâm lý chung của người đời như vậy".</p>
                 <p>Tuy vậy, tôi đã buồn. Buồn đến nỗi suốt một đêm không ngủ được. Thật đấy, anh Phúc ạ. Người ta thường trách tôi vô tình cảm. Nhầm. Tôi chỉ gớm ghét sự giả trá mà thôi. Mà bởi ghét giả trá quá, tôi lại thành ra giả trá. Có điều tôi giả trá theo cách khác: tôi cố ý đóng cũi sắt tình cảm tôi. Thấy người ta thương xót quá dễ dàng, tôi quá sợ lòng thương; thấy nhiều người khóc quá tài tình, tôi bỗng xấu hổ mỗi khi chực khóc. Tôi có đến đưa ma anh cũng bằng thừa. Đã có khối người thương tiếc anh. Đã có người vợ trẻ của anh quăn người lại như một chiếc vỏ bào, và khóc nỉ non như một bản âm nhạc mới. có lẽ chỉ có hai đứa con anh là chúng không làm thảm thiết quá thôi. Chúng không gào. Chúng không lăn lộn trên đường như một con đỉa phải vôi. Chúng không chép miệng, ngoẹo đầu. Chúng ngây ngây, giương đôi mắt ngẩn ngơ. Thỉnh thoảng, nước mắt chúng mới ứa ra, thì chúng lại vội quệt ngang tay áo. Ấy thế mà chúng mới chính là những kẻ thương anh nhất. Chúng biết đời anh là đời chúng. Anh chết đi, chúng chỉ còn một cách, là đi ăn mày.</p>

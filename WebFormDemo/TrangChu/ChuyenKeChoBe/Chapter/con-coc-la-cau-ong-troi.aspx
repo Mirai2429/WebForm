@@ -28,20 +28,20 @@
                 </li>
 
                 <li>
-                    <a href="#">
+                    <a href="/ReviewSach/ReviewSach.aspx">
                         Review Sách
                         <ul class="sub-menu">
-                            <li><a href="#">Sách Hay Nên Đọc</a></li>
+                            <li><a href="/ReviewSach/SachHayNenDoc/SachHayNenDoc.aspx">Sách Hay Nên Đọc</a></li>
                             <li><a href="#">Cafe Sách</a></li>
                         </ul>
                     </a>
                 </li>
 
-                <li><a href="#"> Tác Giả </a></li>
+                <li><a href="/TacGia/TacGia.aspx"> Tác Giả </a></li>
 
-                <li><a href="#"> Truyện Cười </a></li>
+                <li><a href="/TruyenCuoi/TruyenCuoi.aspx"> Truyện Cười </a></li>
 
-                <li><a href="#"> Liên Hệ </a></li>
+                <li><a href="/LienHe/LienHe.aspx"> Liên Hệ </a></li>
             </ul>
         </div>
 
@@ -52,18 +52,16 @@
             <br />
             <h2>Chuyện kể cho bé</h2>
 
-            <form name="selectchap" style="margin-top: 10px; margin-bottom: 10px;">
-                <select name="chap" onchange="location.href = document.forms['selectchap'].chap.value" style="font-size: 15px; width: 300px; max-width: 90%;">
-                    <option value="con-coc-la-cau-ong-troi.aspx" selected="selected">Con cóc là cậu ông trời </option>
-                    <option value="doi-ngong.aspx">Đôi ngỗng </option>
-                    <option value="chu-voi-tot-bung.aspx">Chú voi tốt bụng </option>
-                    <option value="con-ca-thong-minh.aspx">Con cá thông minh </option>
-                    <option value="loi-yeu-cua-con.aspx">Lời yêu của con </option>
-                    <option value="chang-trai-mo-coi.aspx" >Chuyện chàng mồ côi </option>
-                    <option value="su-tich-hoa-mai-vang.aspx">Sự tích hoa mai vàng </option>
-                </select>
-            </form>
-
+            <select onchange="location=this.options[this.selectedIndex].value;" style="font-size: 15px; width: 300px; max-width: 90%; margin-top: 10px; margin-bottom: 10px;">
+                <option value="con-coc-la-cau-ong-troi.aspx" selected="selected">Con cóc là cậu ông trời </option>
+                <option value="doi-ngong.aspx">Đôi ngỗng </option>
+                <option value="chu-voi-tot-bung.aspx">Chú voi tốt bụng </option>
+                <option value="con-ca-thong-minh.aspx">Con cá thông minh </option>
+                <option value="loi-yeu-cua-con.aspx">Lời yêu của con </option>
+                <option value="chang-trai-mo-coi.aspx" >Chuyện chàng mồ côi </option>
+                <option value="su-tich-hoa-mai-vang.aspx">Sự tích hoa mai vàng </option>
+            </select>
+           
             <div class="main-content">
                 <p>Ngày xưa, khi loài vật còn biết nói, có một năm trời hạn hán lớn. Nắng chiếu gay gắt xuống những cánh đồng khô nứt nẻ. Ao hồ cạn nước dần. Cây cỏ khô héo, vàng úa hết.</p>
                 <p>Người và vật không còn thức ăn, nước uống. Ðã nhiều tháng, loài người cũng như loài vật cầu xin trời mưa để có nước uống, làm mùa, nhưng hình như ông trời kkông nghe thấy.</p>

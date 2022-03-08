@@ -28,20 +28,20 @@
                 </li>
 
                 <li>
-                    <a href="#">
+                    <a href="/ReviewSach/ReviewSach.aspx">
                         Review Sách
                         <ul class="sub-menu">
-                            <li><a href="#">Sách Hay Nên Đọc</a></li>
+                            <li><a href="/ReviewSach/SachHayNenDoc/SachHayNenDoc.aspx">Sách Hay Nên Đọc</a></li>
                             <li><a href="#">Cafe Sách</a></li>
                         </ul>
                     </a>
                 </li>
 
-                <li><a href="#"> Tác Giả </a></li>
+                <li><a href="/TacGia/TacGia.aspx"> Tác Giả </a></li>
 
-                <li><a href="#"> Truyện Cười </a></li>
+                <li><a href="/TruyenCuoi/TruyenCuoi.aspx"> Truyện Cười </a></li>
 
-                <li><a href="#"> Liên Hệ </a></li>
+                <li><a href="/LienHe/LienHe.aspx"> Liên Hệ </a></li>
             </ul>
         </div>
 
@@ -52,18 +52,16 @@
             <br />
             <h2>Truyện Ngắn Nam Cao</h2>
 
-            <form name="selectchap" style="margin-top: 10px; margin-bottom: 10px;">
-                <select name="chap" onchange="location.href = document.forms['selectchap'].chap.value" style="font-size: 15px; width: 300px; max-width: 90%;">
-                    <option value="cai-chet-cua-con-muc.aspx" >Cái chết của con Mực </option>
-                    <option value="dieu-van.aspx">Điếu văn </option>
-                    <option value="chi-pheo.aspx">Chí Phèo </option>
-                    <option value="ngheo.aspx">Nghèo </option>
-                    <option value="mot-dam-cuoi.aspx" selected="selected">Một đám cưới </option>
-                    <option value="trang-sang.aspx">Trăng sáng </option>
-                    <option value="lao-hac.aspx">Lão Hạc </option>
-                </select>
-            </form>
-
+            <select onchange="location=this.options[this.selectedIndex].value;" style="margin-top: 10px; margin-bottom: 10px; font-size: 15px; width: 300px; max-width: 90%;">
+                <option value="cai-chet-cua-con-muc.aspx" >Cái chết của con Mực </option>
+                <option value="dieu-van.aspx">Điếu văn </option>
+                <option value="chi-pheo.aspx">Chí Phèo </option>
+                <option value="ngheo.aspx">Nghèo </option>
+                <option value="mot-dam-cuoi.aspx" selected="selected">Một đám cưới </option>
+                <option value="trang-sang.aspx">Trăng sáng </option>
+                <option value="lao-hac.aspx">Lão Hạc </option>
+            </select>
+           
             <div class="main-content">
                 <p>Dần thức dậy thì trong nhà còn tối om om. Ðêm tháng chạp, trời lâu sáng. Thật ra thì gà gáy đã lâu. Tiếng gà gáy xôn xao. Và óc Dần còn lưởng vưởng một ý nhớ mơ hồ, giống như khi người ta nhớ lại những chốn mình đã qua trong một giấc chiêm bao: Dần chưa tỉnh hẳn ra, Dần đã thấy những tiếng gà gáy rất mong manh, rất xa xôi vẩn lên trong giấc ngủ nửa mê nửa tỉnh. Rồi thì Dần tỉnh hẳn. Có lẽ do một tiếng gáy cộc lốc của anh gà trụi trong chuồng gà nhà bên cạnh. Con gà đang ở thời kỳ tập gáy, tiếng gáy ngắn nhưng đã vang động lắm. ấy là một con gà có sức. Dần phác lại trong tưởng tượng cái hình dung lộc ngộc của nó, lấc cấc và vụng dại như một anh con trai mười sáu tuổi, đôi chân cao, cái cổ trần ngất nghểu, cái mào đỏ khè mới hơi nhu nhú, cái đuôi cụt ngủn. Anh chàng rất hay sang nhà nó tãi gio, tãi rác, khiến nó bực mình đã mấy lần toan vụt chết.</p>
                 <p>Dần nhỏm dậy. Nó sờ soạng ra khỏi cái ổ rơm rồi đi thẳng ra ngoài. Bên ngoài mịt mù sương. Khí lạnh sắc như dao. Dần rùng mình và hắt hơi mấy cái luôn. Nó thấy cần phải động đậy ngay, cần phải làm ngay một việc gì cho nóng người: đã rét mà lại còn đứng co ro thì chỉ càng tổ rét. Nó mải mốt vơ lấy cái chổi để quét sân, quét ngõ. Việc quét tước ấy chẳng sáng nào nó quên làm, dù sân nhà có bẩn hay không. Ấy là một thói quen cũng như cái thói quen dậy từ lúc hãy còn đêm. Nết chăm chỉ ấy, nó học được mấy năm đi ở.</p>

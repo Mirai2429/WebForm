@@ -5,8 +5,6 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormDemo", "WebFormDemo\WebFormDemo.csproj", "{0C7520C8-EDBF-4A36-AD79-D7EC801488C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTLW", "BTLW\BTLW.csproj", "{4C9EE5BF-1485-434E-9D9F-65F823E5D966}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{0C7520C8-EDBF-4A36-AD79-D7EC801488C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C7520C8-EDBF-4A36-AD79-D7EC801488C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C7520C8-EDBF-4A36-AD79-D7EC801488C7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4C9EE5BF-1485-434E-9D9F-65F823E5D966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4C9EE5BF-1485-434E-9D9F-65F823E5D966}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4C9EE5BF-1485-434E-9D9F-65F823E5D966}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4C9EE5BF-1485-434E-9D9F-65F823E5D966}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

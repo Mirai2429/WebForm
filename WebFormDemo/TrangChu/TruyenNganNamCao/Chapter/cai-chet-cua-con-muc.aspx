@@ -28,20 +28,20 @@
                 </li>
 
                 <li>
-                    <a href="#">
+                    <a href="/ReviewSach/ReviewSach.aspx">
                         Review Sách
                         <ul class="sub-menu">
-                            <li><a href="#">Sách Hay Nên Đọc</a></li>
+                            <li><a href="/ReviewSach/SachHayNenDoc/SachHayNenDoc.aspx">Sách Hay Nên Đọc</a></li>
                             <li><a href="#">Cafe Sách</a></li>
                         </ul>
                     </a>
                 </li>
 
-                <li><a href="#"> Tác Giả </a></li>
+                <li><a href="/TacGia/TacGia.aspx"> Tác Giả </a></li>
 
-                <li><a href="#"> Truyện Cười </a></li>
+                <li><a href="/TruyenCuoi/TruyenCuoi.aspx"> Truyện Cười </a></li>
 
-                <li><a href="#"> Liên Hệ </a></li>
+                <li><a href="/LienHe/LienHe.aspx"> Liên Hệ </a></li>
             </ul>
         </div>
 
@@ -52,18 +52,16 @@
             <br />
             <h2>Truyện Ngắn Nam Cao</h2>
 
-            <form name="selectchap" style="margin-top: 10px; margin-bottom: 10px;">
-                <select name="chap" onchange="location.href = document.forms['selectchap'].chap.value" style="font-size: 15px; width: 300px; max-width: 90%;">
-                    <option value="cai-chet-cua-con-muc.aspx" selected="selected">Cái chết của con Mực </option>
-                    <option value="dieu-van.aspx">Điếu văn </option>
-                    <option value="chi-pheo.aspx">Chí Phèo </option>
-                    <option value="ngheo.aspx">Nghèo </option>
-                    <option value="mot-dam-cuoi.aspx">Một đám cưới </option>
-                    <option value="trang-sang.aspx">Trăng sáng </option>
-                    <option value="lao-hac.aspx">Lão Hạc </option>
-                </select>
-            </form>
-
+            <select onchange="location=this.options[this.selectedIndex].value;" style="margin-top: 10px; margin-bottom: 10px; font-size: 15px; width: 300px; max-width: 90%;">
+                <option value="cai-chet-cua-con-muc.aspx" selected="selected">Cái chết của con Mực </option>
+                <option value="dieu-van.aspx">Điếu văn </option>
+                <option value="chi-pheo.aspx">Chí Phèo </option>
+                <option value="ngheo.aspx">Nghèo </option>
+                <option value="mot-dam-cuoi.aspx">Một đám cưới </option>
+                <option value="trang-sang.aspx">Trăng sáng </option>
+                <option value="lao-hac.aspx">Lão Hạc </option>
+            </select>
+           
             <div class="main-content">
                 <p>Người ta định giết Mực đã lâu rồi. Mực là con già hơn trong hai con chó của nhà. Nhưng cũng là con nhiều nết xấu. Nó tục ăn: đó là thường. Nó nhiều vắt: cái ấy đủ khổ cho nó. Nó cắn càn ấy là cái khổ của bọn ăn mày. Nhưng nó lại sủa như một con gà gáy: cái này thì không thể nào tha thứ được. Thoạt tiên người ta định ngày chết cho nó vào dịp Thanh Minh. May cho nó hôm ấy bà chủ nhà bị ốm.</p>
                 <p>Rồi thì là Tết tháng năm. Bỗng nhiên đứa con út của bà ươn mình: bà phải kiêng để lấy sữa lành cho con bú. Sau cùng người ta nhất định thịt nó vào rằm tháng bảy ai ốm mặc. Nhưng lần nầy Mực vẫn còn thoát nạn là vì nhờ có Du. Người con cả xa xôi ấy vừa viết thư báo chẳng bao lâu sẽ về. Bà mẹ mừng như tìm được một vật quý bị rơi và bà nhất định lùi ngày xử con Mực lại.</p>

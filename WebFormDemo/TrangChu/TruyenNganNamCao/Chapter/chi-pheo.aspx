@@ -28,20 +28,20 @@
                 </li>
 
                 <li>
-                    <a href="#">
+                    <a href="/ReviewSach/ReviewSach.aspx">
                         Review Sách
                         <ul class="sub-menu">
-                            <li><a href="#">Sách Hay Nên Đọc</a></li>
+                            <li><a href="/ReviewSach/SachHayNenDoc/SachHayNenDoc.aspx">Sách Hay Nên Đọc</a></li>
                             <li><a href="#">Cafe Sách</a></li>
                         </ul>
                     </a>
                 </li>
 
-                <li><a href="#"> Tác Giả </a></li>
+                <li><a href="/TacGia/TacGia.aspx"> Tác Giả </a></li>
 
-                <li><a href="#"> Truyện Cười </a></li>
+                <li><a href="/TruyenCuoi/TruyenCuoi.aspx"> Truyện Cười </a></li>
 
-                <li><a href="#"> Liên Hệ </a></li>
+                <li><a href="/LienHe/LienHe.aspx"> Liên Hệ </a></li>
             </ul>
         </div>
 
@@ -52,18 +52,16 @@
             <br />
             <h2>Truyện Ngắn Nam Cao</h2>
 
-            <form name="selectchap" style="margin-top: 10px; margin-bottom: 10px;">
-                <select name="chap" onchange="location.href = document.forms['selectchap'].chap.value" style="font-size: 15px; width: 300px; max-width: 90%;">
-                    <option value="cai-chet-cua-con-muc.aspx">Cái chết của con Mực </option>
-                    <option value="dieu-van.aspx">Điếu văn </option>
-                    <option value="chi-pheo.aspx" selected="selected">Chí Phèo </option>
-                    <option value="ngheo.aspx">Nghèo </option>
-                    <option value="mot-dam-cuoi.aspx">Một đám cưới </option>
-                    <option value="trang-sang.aspx">Trăng sáng </option>
-                    <option value="lao-hac.aspx">Lão Hạc </option>
-                </select>
-            </form>
-
+            <select onchange="location=this.options[this.selectedIndex].value;" style="margin-top: 10px; margin-bottom: 10px; font-size: 15px; width: 300px; max-width: 90%;">
+                <option value="cai-chet-cua-con-muc.aspx">Cái chết của con Mực </option>
+                <option value="dieu-van.aspx">Điếu văn </option>
+                <option value="chi-pheo.aspx" selected="selected">Chí Phèo </option>
+                <option value="ngheo.aspx">Nghèo </option>
+                <option value="mot-dam-cuoi.aspx">Một đám cưới </option>
+                <option value="trang-sang.aspx">Trăng sáng </option>
+                <option value="lao-hac.aspx">Lão Hạc </option>
+            </select>
+           
             <div class="main-content">
                 <p>Hắn vừa đi vừa chửi. Bao giờ cũng thế, cứ rượu xong là hắn chửi. Bắt đầu chửi trời, có hề gì? Trời có của riêng nhà nào? Rồi hắn chửi đời. Thế cũng chẳng sao: Đời là tất cả nhưng cũng chẳng là ai. Tức mình hắn chửi ngay tất cả làng Vũ Đại. Nhưng cả làng Vũ Đại ai cũng nhủ: “Chắc nó trừ mình ra!”. Không ai lên tiếng cả. Tức thật! Ồ thế này thì tức thật! Tức chết đi được mất! Đã thế, hắn phải chửi cha đứa nào không chửi nhau với hắn. Nhưng cũng không ai ra điều. Mẹ kiếp! Thế thì có phí rượu không? Thế thì có khổ hắn không? Không biết đứa chết mẹ nào đẻ ra thân hắn cho hắn khổ đến nông nỗi này! A ha! Phải đấy hắn cứ thế mà chửi, hắn chửi đứa chết mẹ nào đẻ ra thân hắn, đẻ ra cái thằng Chí Phèo? Mà có trời biết! Hắn không biết, cả làng Vũ Đại cũng không ai biết.</p>
                 <p>Một anh đi thả ống lươn, một buổi sáng tinh sương đã thấy hắn trần truồng và xám ngắt trong cái váy đụp để bên một lò gạch bỏ không, anh ta rước lấy và đem cho một người đàn bà góa mù. Người đàn bà góa mù này bán hắn cho một bác phó cối không con và khi bác phó cối này chết thì hắn bơ vơ, hết đi ở cho nhà này lại đi ở cho nhà nọ. Năm hai mươi tuổi, hắn làm canh điền cho ông lý Kiến, bây giờ cụ bá Kiến, ăn tiên chỉ làng. Hình như, có mấy lần bà ba nhà ông lý, trẻ lắm mà lại hay ốm lửng, bắt hắn bóp chân, hay xoa bụng, đấm lưng gì đấy. Người ta bảo ông lý ra đình thì hách dịch, cả làng phải sợ, mà về nhà phải sợ cái bà ba còn trẻ này. Người bà ấy phốp pháp, má bà ấy hây hây, mà ông lý thì hay đau lưng lắm; người có bệnh đau lưng thì hay sợ vợ mà chúa đời là khoẻ ghen. Có người bảo ông lý ghen anh canh điền khoẻ mạnh mà sợ bà ba không dám nói. Có người thì bảo anh canh điền ấy được bà ba quyền thu quyền bổ trong nhà tin cẩn nên lấy trộm tiền trộm thóc nhiều. Mỗi người nói một cách. Chẳng biết đâu mà lần. Chỉ biết một hôm Chí bị giải huyện rồi nghe đâu phải đi tù. Không biết tù mấy năm, nhưng hắn đi biệt tăm bảy, tám năm, rồi một hôm, hắn lại lù lù ở đâu lần về. Hắn về lần này trông khác hẳn, mới đầu chẳng ai biết hắn là ai. Trông đặc như thằng sắng cá! Cái đầu thì trọc lốc, cái răng cạo trắng hớn, cái mặt thì đen mà rất cơng cơng, hai mắt gườm gườm trông gớm chết! Hắn mặc quần áo nái đen với cái áo tây vàng. Cái ngực phanh đầy những nét chạm trổ rồng, phượng với một ông tướng cầm chùy, cả hai cánh tay cũng thế. Trông gớm chết!</p>

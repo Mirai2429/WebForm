@@ -28,20 +28,20 @@
             </li>
 
             <li>
-                <a href="#">
+                <a href="/ReviewSach/ReviewSach.aspx">
                     Review Sách
                     <ul class="sub-menu">
-                        <li><a href="#">Sách Hay Nên Đọc</a></li>
+                        <li><a href="/ReviewSach/SachHayNenDoc/SachHayNenDoc.aspx">Sách Hay Nên Đọc</a></li>
                         <li><a href="#">Cafe Sách</a></li>
                     </ul>
                 </a>
             </li>
 
-            <li><a href="#"> Tác Giả </a></li>
+            <li><a href="/TacGia/TacGia.aspx"> Tác Giả </a></li>
 
-            <li><a href="#"> Truyện Cười </a></li>
+            <li><a href="/TruyenCuoi/TruyenCuoi.aspx"> Truyện Cười </a></li>
 
-            <li><a href="#"> Liên Hệ </a></li>
+            <li><a href="/LienHe/LienHe.aspx"> Liên Hệ </a></li>
         </ul>
     </div>
 
@@ -62,7 +62,7 @@
             <li><a href="#">Chị Đào, Chị Lý</a> – xuất bản năm 1957 của <a href="#">Hồ Biểu Chánh</a></li>
             <li><a href="#">Chúa tàu Kim Quy</a> – xuất bản năm 1923 của <a href="#">Hồ Biểu Chánh</a></li>
             <li><a href="#">Chút phận linh đinh</a> – xuất bản năm 1928 của <a href="#">Hồ Biểu Chánh</a></li>
-            <li><a href="/TrangChu/ChuyenKeChoBe/ChuyenKeChoBe.html">Chuyện kể cho bé</a> </li>
+            <li><a href="/TrangChu/ChuyenKeChoBe/ChuyenKeChoBe.aspx">Chuyện kể cho bé</a> </li>
             <li><a href="#">Cơm thầy cơm cô</a> – xuất bản năm 1936 của <a href="#">Vũ Trọng Phụng</a></li>
             <li><a href="#">Con nhà giàu</a> – xuất bản năm 1931 của <a href="#">Hồ Biểu Chánh</a></li>
             <li><a href="#">Con nhà nghèo</a> – xuất bản năm 1930 của <a href="#">Hồ Biểu Chánh</a></li>

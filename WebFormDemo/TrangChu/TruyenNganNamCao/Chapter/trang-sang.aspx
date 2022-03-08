@@ -28,20 +28,20 @@
                 </li>
 
                 <li>
-                    <a href="#">
+                    <a href="/ReviewSach/ReviewSach.aspx">
                         Review Sách
                         <ul class="sub-menu">
-                            <li><a href="#">Sách Hay Nên Đọc</a></li>
+                            <li><a href="/ReviewSach/SachHayNenDoc/SachHayNenDoc.aspx">Sách Hay Nên Đọc</a></li>
                             <li><a href="#">Cafe Sách</a></li>
                         </ul>
                     </a>
                 </li>
 
-                <li><a href="#"> Tác Giả </a></li>
+                <li><a href="/TacGia/TacGia.aspx"> Tác Giả </a></li>
 
-                <li><a href="#"> Truyện Cười </a></li>
+                <li><a href="/TruyenCuoi/TruyenCuoi.aspx"> Truyện Cười </a></li>
 
-                <li><a href="#"> Liên Hệ </a></li>
+                <li><a href="/LienHe/LienHe.aspx"> Liên Hệ </a></li>
             </ul>
         </div>
 
@@ -52,18 +52,16 @@
             <br />
             <h2>Truyện Ngắn Nam Cao</h2>
 
-            <form name="selectchap" style="margin-top: 10px; margin-bottom: 10px;">
-                <select name="chap" onchange="location.href = document.forms['selectchap'].chap.value" style="font-size: 15px; width: 300px; max-width: 90%;">
-                    <option value="cai-chet-cua-con-muc.aspx" >Cái chết của con Mực </option>
-                    <option value="dieu-van.aspx">Điếu văn </option>
-                    <option value="chi-pheo.aspx">Chí Phèo </option>
-                    <option value="ngheo.aspx">Nghèo </option>
-                    <option value="mot-dam-cuoi.aspx">Một đám cưới </option>
-                    <option value="trang-sang.aspx" selected="selected">Trăng sáng </option>
-                    <option value="lao-hac.aspx">Lão Hạc </option>
-                </select>
-            </form>
-
+            <select onchange="location=this.options[this.selectedIndex].value;" style="margin-top: 10px; margin-bottom: 10px; font-size: 15px; width: 300px; max-width: 90%;">
+                <option value="cai-chet-cua-con-muc.aspx" >Cái chết của con Mực </option>
+                <option value="dieu-van.aspx">Điếu văn </option>
+                <option value="chi-pheo.aspx">Chí Phèo </option>
+                <option value="ngheo.aspx">Nghèo </option>
+                <option value="mot-dam-cuoi.aspx">Một đám cưới </option>
+                <option value="trang-sang.aspx" selected="selected">Trăng sáng </option>
+                <option value="lao-hac.aspx">Lão Hạc </option>
+            </select>
+           
             <div class="main-content">
                 <p>Ðiền có bốn cái ghế mây. Tất cả đồ đạc trong nhà, chỉ có bốn cái ghế mây này là có giá. Không phải Ðiền mua. Tính Ðiền rất ghét mua. Từ ngày ra ở riêng đến giờ, Ðiền mới mua có một lần. ấy là một cái giường bằng gỗ bưởi của một người cô nghèo khó. Người cô cần tiền để lấy thuốc ngã nước cho chồng. Còn Ðiền thấy cũng cần một cái giường. Tháng ba vừa rồi vợ Ðiền mới sinh một con trai. Nghĩa là bây giờ Ðiền có những hai con. Cả nhà đúng bốn người, bốn người chất cả vào một cái giường! Giá mùa rét thì cũng được, chen chúc nhau một tý càng ấm áp. Nhưng mùa nực, còn gì là vệ sinh?</p>
                 <p>Năm chừng mười họa, Ðiền cũng còn nghĩ rằng: nên theo phép vệ sinh. Bởi Ðiền là người có học hẳn hoi. Ðiền đã có lần làm một ông giáo trường tư trong ngót ba năm, mà Ðiền có bốn cái ghế mây vừa mới nói. Năm ngoái đây, cái trường vẫn thuê Ðiền dạy lớp nhất, lấy hai chục bạc lương một tháng, đột nhiên phải dẹp. Dẹp để nhường lại mấy căn nhà cho người ta dùng vào việc khác, cần cho lúc này hơn. Ông hiệu trưởng còn chịu của Ðiền nửa tháng lương. Tiền học tháng cuối cùng thì chưa thu được. Chỗ anh em biết tính thế nào cho tiện? Giá ông xoay được, thì ông trả phắt Ðiền chục bạc, cho đẹp mặt cả đôi bên. Nhưng ông không xoay được. Mà chẳng lẽ Ðiền phải thiệt? Thôi thì... thôi thì... - biết nói ra sao bây giờ? - Ông cười một cách ngượng nghịu bảo Ðiền:</p>
