@@ -81,6 +81,38 @@ header h1 {
      color: antiquewhite;
 }
 
+.search {
+    margin-top: 20px !important;
+    margin-right: 85px;
+    margin-left: auto;
+    border: groove;
+    width: 17%;
+    padding: 5px;
+}
+
+.search input {
+    border: none;
+    font-size: 15px;
+    margin-left: 10px;
+    outline: none;
+}
+
+.search input[type=text] {
+    border: none;
+    background-color: none;
+    font-weight: bold;
+}
+
+/*.search button {
+    display: inline-block;
+    padding: 5px;
+    background-color: antiquewhite;
+    cursor: pointer;
+    border: groove;
+    font-weight: bold;
+    font-size: 15px;
+}*/
+
 .content {
     display: block;
 }
@@ -129,4 +161,74 @@ header h1 {
 .ft a{
     text-decoration: none;
     color: brown;
+}
+
+@media only screen and (max-width: 768px){
+    header {
+        height: 60px;
+    }
+
+    header h1 {
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .menu li {
+        list-style: none;
+        display: inline-block;
+        position: relative;
+        padding: 15px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .menu ul li:hover ul {
+        width: 100%;
+        top: 40px;
+        left: 0px;
+    }
+
+    .menu ul li:hover .sub-menu li {
+        font-size: 10px;
+        display: block;
+        text-align: center;
+        padding: 10px 1px;
+        background-color: antiquewhite;
+    }
+
+    .search {
+        margin-top: 20px !important;
+        margin-left: 10px;
+        border: groove;
+        width: 50%;
+        padding: 5px;
+    }
+
+    .search input {
+        border: none;
+        font-size: 15px;
+        margin-left: 10px;
+        outline: none;
+    }
+
+    .content {
+        display: block;
+    }
+
+    .book {
+        display: inline-block;
+        text-align: center;
+        border: 2px solid black;
+        padding: 10px;
+        margin: 10px;
+        font-size: 12px;
+    }
+
+    .ft {
+        display: inline-block;
+        margin-top: 50px !important;
+        margin-bottom: 80px !important;
+        font-size: 12px;
+        margin: 25px;
+    }
 }

@@ -10,7 +10,7 @@ namespace WebFormDemo
         string hoten;
         string ngaysinh;
         string diachi;
-        //string email;
+        string email;
         string sdt;
         string gioitinh;
 
@@ -32,11 +32,11 @@ namespace WebFormDemo
             set { diachi = value; }
         }
         
-        //public string Email
-        //{
-        //    get { return email; }
-        //    set { email = value; }
-        //}
+        public string Email
+        {
+            get { return email; }
+            set { email = value; }
+        }
 
         public string SDT
         {

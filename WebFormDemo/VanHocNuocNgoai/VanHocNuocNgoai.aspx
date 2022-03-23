@@ -42,6 +42,8 @@
             <li><a href="/TruyenCuoi/TruyenCuoi.aspx"> Truyện Cười </a></li>
 
             <li><a href="/LienHe/LienHe.aspx"> Liên Hệ </a></li>
+
+            <li><a href="/DangNhap/DangNhap.aspx"> Đăng Nhập / Đăng Ký </a></li>
         </ul>
     </div>
 
@@ -52,14 +54,14 @@
             <li><a href="#">Con chó của dòng họ Baskerville</a> – xuất bản năm 1901 của <a href="#">Arthur Conan Doyle</a></li>
             <li><a href="#">Cung đàn sau cuối</a> – của <a href="#">Arthur Conan Doyle</a></li>
             <li><a href="#">Dấu bộ tứ</a> – xuất bản năm 1890 của <a href="#">Arthur Conan Doyle</a></li>
-            <li><a href="#">Hồng lâu mộng</a> – của Tào Tuyết Cần</li>
+            <li><a href="#">Hồng lâu mộng</a> – của <a href="#">Tào Tuyết Cần</a></li>
             <li><a href="#">Những cuộc phiêu lưu của Sherlock Holmes</a> – xuất bản năm 1891 của <a href="#">Arthur Conan Doyle</a></li>
             <li><a href="#">Những hồi ức về Sherlock Holmes</a> – xuất bản năm 1892 của <a href="#">Arthur Conan Doyle</a></li>
-            <li><a href="#">Phong thần diễn nghĩa</a> – của Hứa Trọng Lâm</li>
-            <li><a href="#">Tam quốc diễn nghĩa</a> – của La Quán Trung</li>
-            <li><a href="#">Tây du ký</a> – xuất bản năm 1590 của Ngô Thừa Ân</li>
+            <li><a href="#">Phong thần diễn nghĩa</a> – của <a href="#">Hứa Trọng Lâm</a></li>
+            <li><a href="#">Tam quốc diễn nghĩa</a> – của <a href="#">La Quán Trung</a></li>
+            <li><a href="#">Tây du ký</a> – xuất bản năm 1590 của <a href="#">Ngô Thừa Ân</a></li>
             <li><a href="#">Thung lũng khủng khiếp</a> – xuất bản năm 1915 của <a href="#">Arthur Conan Doyle</a></li>
-            <li><a href="#">Thủy hử</a> – của Thi Nại Am</li>
+            <li><a href="#">Thủy hử</a> – của <a href="#">Thi Nại Am</a></li>
         </ul>
     </div>
 

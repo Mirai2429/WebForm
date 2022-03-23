@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DangNhap\DangNhap.aspx" />
+    <Content Include="dangxuat.aspx" />
     <Content Include="Global.asax" />
     <Content Include="img\ReviewSach\hinh1.PNG" />
     <Content Include="img\ReviewSach\hinh10.PNG" />
@@ -160,6 +162,7 @@
     <Content Include="TrangChu\ChuyenKeChoBe\Chapter\su-tich-hoa-mai-vang.aspx" />
     <Content Include="TrangChu\ChuyenKeChoBe\ChuyenKeChoBe.aspx" />
     <Content Include="TrangChu\ChuyenKeChoBe\ChuyenKeChoBe.css" />
+    <Content Include="TrangChu\TimKiem.js" />
     <Content Include="TrangChu\TrangChu.aspx" />
     <Content Include="TrangChu\TrangChu.css" />
     <Content Include="TrangChu\TruyenNganNamCao\Chapter\cai-chet-cua-con-muc.aspx" />
@@ -178,9 +181,24 @@
     <Content Include="VanHocVietNam\VanHocVietNam.aspx" />
     <Content Include="VanHocVietNam\VanHocVietNam.css" />
     <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
+    <Content Include="home.aspx" />
+    <Content Include="dangnhap.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DangNhap\DangNhap.aspx.cs">
+      <DependentUpon>DangNhap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DangNhap\DangNhap.aspx.designer.cs">
+      <DependentUpon>DangNhap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dangxuat.aspx.cs">
+      <DependentUpon>dangxuat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dangxuat.aspx.designer.cs">
+      <DependentUpon>dangxuat.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -207,6 +225,7 @@
     <Compile Include="ReviewSach\SachHayNenDoc\SachHayNenDoc.aspx.designer.cs">
       <DependentUpon>SachHayNenDoc.aspx</DependentUpon>
     </Compile>
+    <Compile Include="sanpham.cs" />
     <Compile Include="TacGia\TacGia.aspx.cs">
       <DependentUpon>TacGia.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -354,12 +373,19 @@
     <Compile Include="VanHocVietNam\VanHocVietNam.aspx.designer.cs">
       <DependentUpon>VanHocVietNam.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dangnhap.aspx.cs">
+      <DependentUpon>dangnhap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dangnhap.aspx.designer.cs">
+      <DependentUpon>dangnhap.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

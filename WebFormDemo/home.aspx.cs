@@ -21,7 +21,17 @@ namespace WebFormDemo
                 Response.Write("Xin chao "+Session["email"]);
             //}*/
 
+            if(Session["Name"] == null)
+            {
+                Response.Redirect("home.aspx");
+            }
+            else
+            {
+                Response.Write("Xin chao: "+ Session["Name"]);
+            }
+
             List<NhanVien> danhsach = (List<NhanVien>)Application["danhsach_nv"];
+            
             if(IsPostBack)
             {
                 if(Request.Form["luu"] == "Luu")
@@ -40,7 +50,7 @@ namespace WebFormDemo
                         nv.Hoten = Request.Form["hoten"];
                         nv.DiaChi = Request.Form["diachi"];
                         nv.NgaySinh = Request.Form["ngaysinh"];
-                        //nv.Email = Request.Form["email"];
+                        nv.Email = Request.Form["email"];
                         nv.SDT = Request.Form["sdt"];
                         nv.Gioitinh = Request.Form["gioitinh"];
                         danhsach.Add(nv);
@@ -50,7 +60,6 @@ namespace WebFormDemo
                     {
                         Response.Write("Trung nhan vien");
                     }
-                    
                 }
                 
                 if(Request.Form["sua"] == "Sua")
@@ -73,10 +82,11 @@ namespace WebFormDemo
             chuoi += "<td>Ho Va Ten</td>";
             chuoi += "<td>Ngay Sinh</td>";
             chuoi += "<td>Dia Chi</td>";
-            //chuoi += "<td>Email</td>";
+            chuoi += "<td>Email</td>";
             chuoi += "<td>SDT</td>";
             chuoi += "<td>Gioi tinh</td>";
             chuoi += "<td>Sua</td>";
+            chuoi += "<td>Xoa</td>";
             chuoi += "</tr>";
 
             int i = 1;
@@ -87,10 +97,11 @@ namespace WebFormDemo
                 chuoi += "<td>"+nv.Hoten+"</td>";
                 chuoi += "<td>"+nv.NgaySinh+"</td>";
                 chuoi += "<td>"+nv.DiaChi+"</td>";
-                //chuoi += "<td>" + nv.Email + "</td>";
+                chuoi += "<td>" + nv.Email + "</td>";
                 chuoi += "<td>" + nv.SDT + "</td>";
                 chuoi += "<td>" + nv.Gioitinh + "</td>";
                 chuoi += "<td> <a href='WebForm1.aspx?hoten="+nv.Hoten+"&diachi="+nv.DiaChi+"&ngaysinh="+nv.NgaySinh+"'/> Sua </td>";
+                chuoi += "<td> <a href='WebForm1.aspx?hoten=" + nv.Hoten + "&diachi=" + nv.DiaChi + "&ngaysinh=" + nv.NgaySinh + "'/> Xoa </td>";
                 chuoi += "</tr>";
             }
             chuoi += "</table";

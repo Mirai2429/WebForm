@@ -6,9 +6,11 @@
 <head runat="server">
     <title></title>
     <link rel="stylesheet" type="text/css" href="TrangChu.css" />
+    <link rel="stylesheet"  href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <script src="TimKiem.js"></script>
 </head>
 <body>
-    <form id="TrangChu" runat="server">
+    <form id="TrangChu" runat="server"  >
         <header>
             <h1>ĐỌC SÁCH ONLINE</h1>
         </header>
@@ -42,10 +44,17 @@
                 <li><a href="/TruyenCuoi/TruyenCuoi.aspx"> Truyện Cười </a></li>
 
                 <li><a href="/LienHe/LienHe.aspx"> Liên Hệ </a></li>
+
+                <li><a href="/DangNhap/DangNhap.aspx"> Đăng Nhập / Đăng Ký </a></li>
             </ul>
         </div>
 
-        <div class="content">
+        <div class="search">
+            <i class="fas fa-search"></i>
+            <input type="text" id="txtSearch" onkeyup="Search()" placeholder="Tìm Kiếm"/>
+        </div>
+
+        <div class="content" id="content">
             <div class="book">
                 <a href="ChuyenKeChoBe/ChuyenKeChoBe.aspx"> <img src="/img/TrangChu/chuyen_ke_cho_be.jpg" /> </a>
                 <h3 class="title"><a href="ChuyenKeChoBe/ChuyenKeChoBe.aspx">Chuyện kể cho bé</a></h3>
@@ -97,19 +106,14 @@
             </div>
 
             <div class="book">
-                <img src="/img/TrangChu/giai_thich_thanh_ngu.jpg" />
-                <h6 class="title"><a href="#">Giải thích Thành ngữ - Tục ngữ</a></h6>
-            </div>
-
-            <%--<div class="book">
                 <img src="/img/TrangChu/viet_nam_su_luoc.jpg" />
                 <h3 class="title"><a href="#">Việt Nam sử lược</a></h3>
-            </div>--%>
+            </div>
 
-            <%--<div class="book">
+            <div class="book">
                 <img src="/img/TrangChu/giong_to.jpg" />
                 <h3 class="title"><a href="#">Giông tố</a></h3>
-            </div>--%>
+            </div>
         </div>
 
         <div class="footer">

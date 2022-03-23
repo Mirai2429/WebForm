@@ -17,11 +17,22 @@ namespace WebFormDemo
             nv.Hoten = "Nguyen Van A";
             nv.NgaySinh = "15/10/2000";
             nv.DiaChi = "96 Dinh Cong";
-
+            nv.SDT = "0123";
+            nv.Email = "a@gmail.com";
             List<NhanVien> ds;
             ds = (List<NhanVien>)Application["danhsach_nv"];
             ds.Add(nv);
             Application["danhsach_nv"] = ds;
+
+            //Application["danhsach_sp"] = new List<sanpham>();
+            //sanpham sp = new sanpham();
+            //sp.Id = "1";
+            //sp.Ten = "a";
+            //sp.Loai = "a";
+            //List<sanpham> ds;
+            //ds = (List<sanpham>)Application["danhsach_sp"];
+            //ds.Add(sp);
+            //Application["danhsach_sp"] = ds;
         }
 
         protected void Session_Start(object sender, EventArgs e)

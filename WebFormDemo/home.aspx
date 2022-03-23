@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="WebFormDemo.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="home.aspx.cs" Inherits="WebFormDemo.WebForm1" %>
 
 <!DOCTYPE html>
 
@@ -22,12 +22,22 @@
             <br />
             Gioi tinh <input type="text" name="gioitinh" id="gioitinh" value="" runat="server" />
             <br />
+
             <input type="submit" name="luu" value="Luu" onclick="kiemtra()"/>
-            <input type="submit" name="sua" value="Sua" />
+            <input type="submit" name="sua" value="Sua"/>
+
+            <%--ID <input type="text" name="id" id="id" value="" runat="server" />
+            Ten <input type="text" name="ten" id="ten1" value="" runat="server" />
+            Loai <input type="text" name="loai" id="loai" value="" runat="server" />
+            <input type="submit" name="luu" value="Luu" />--%>
 
             <div id="bang" name="bang" runat="server">
                 
             </div>
+        </div>
+
+        <div>
+            <a href="dangxuat.aspx">Dang Xuat</a>
         </div>
     </form>
 </body>

@@ -42,6 +42,8 @@
             <li><a href="/TruyenCuoi/TruyenCuoi.aspx"> Truyện Cười </a></li>
 
             <li><a href="/LienHe/LienHe.aspx"> Liên Hệ </a></li>
+
+            <li><a href="/DangNhap/DangNhap.aspx"> Đăng Nhập / Đăng Ký </a></li>
         </ul>
     </div>
 
