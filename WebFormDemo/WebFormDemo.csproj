@@ -67,7 +67,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DangNhap\DangKy.aspx" />
+    <Content Include="DangNhap\DangKy.css" />
     <Content Include="DangNhap\DangNhap.aspx" />
+    <Content Include="DangNhap\DangNhap.css" />
+    <Content Include="DangNhap\DangXuat.aspx" />
     <Content Include="dangxuat.aspx" />
     <Content Include="Global.asax" />
     <Content Include="img\ReviewSach\hinh1.PNG" />
@@ -185,12 +189,26 @@
     <Content Include="dangnhap.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DangNhap\DangKy.aspx.cs">
+      <DependentUpon>DangKy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DangNhap\DangKy.aspx.designer.cs">
+      <DependentUpon>DangKy.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DangNhap\DangNhap.aspx.cs">
       <DependentUpon>DangNhap.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="DangNhap\DangNhap.aspx.designer.cs">
       <DependentUpon>DangNhap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DangNhap\DangXuat.aspx.cs">
+      <DependentUpon>DangXuat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DangNhap\DangXuat.aspx.designer.cs">
+      <DependentUpon>DangXuat.aspx</DependentUpon>
     </Compile>
     <Compile Include="dangxuat.aspx.cs">
       <DependentUpon>dangxuat.aspx</DependentUpon>

@@ -11,7 +11,19 @@ namespace WebFormDemo.TrangChu
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["Name"] != null)
+            {
+                Username.Visible = true;
+                Username.Text = "Xin chào: " + Session["Name"];
+                DangNhap.Visible = false;
+                DangXuat.Visible = true;
+            }
+            else
+            {
+                Username.Visible = false;
+                DangXuat.Visible = false;
+                DangNhap.Visible = true;
+            }
         }
     }
 }

@@ -43,7 +43,9 @@
 
                 <li><a href="/LienHe/LienHe.aspx"> Liên Hệ </a></li>
 
-                <li><a href="/DangNhap/DangNhap.aspx"> Đăng Nhập / Đăng Ký </a></li>
+                <asp:Label runat="server" ID="DangNhap"><li><a href="/DangNhap/DangNhap.aspx"> Đăng Nhập / Đăng Ký </a></li></asp:Label>
+
+                <asp:Label runat="server" ID="DangXuat"><li><a href="/DangNhap/DangXuat.aspx"> Đăng Xuất </a></li></asp:Label>
             </ul>
         </div>
 
@@ -203,7 +205,7 @@
             </div>
 
             <div class="right-content">
-                <h1>Truyện mới cập nhật>></h1>
+                <h1>Truyện mới cập nhật</h1>
                 
                 <div class="item">
                     <img src="/img/TruyenCuoi/phuthuy.jpg" alt="hinh1" title="Phù Thủy Sợ Ma " width="95" height="80" />
@@ -225,7 +227,7 @@
                     <p><a href="#" title="">Ba Điều Uớc </a></p>
                 </div>
 
-                <h1>Thể Loại Truyện>></h1>
+                <h1>Thể Loại Truyện</h1>
 
                 <div class="item">
                     <img src="/img/TruyenCuoi/yeu.jpg" alt="hinh5" title="Truyen cuoi tinh yeu" width="95" height="80" />
@@ -247,7 +249,7 @@
                     <p><a href="#" title="">Truyện cười dân gian</a></p>                       
                 </div>
  
-                <h1>Review truyện>> </h1>
+                <h1>Review truyện </h1>
 
                 <div class="inactive">
                     <p><a href="#" title="">Top câu truyện cười dân gian châm biếm hay nhất</a></p>
@@ -258,7 +260,7 @@
                     <p><a href="#" title="">Truyện cười song ngữ Hoa</a></p>
                 </div>
 
-                <h1>Web truyện nổi bật>> </h1>
+                <h1>Web truyện nổi bật </h1>
                 
                 <div class="item">
                     <img src="/img/TruyenCuoi/su.jpg" alt="hinh5" title="SUPER-FUNNY" width="95" height="80" />

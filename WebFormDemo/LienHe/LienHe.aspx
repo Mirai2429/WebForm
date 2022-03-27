@@ -43,7 +43,9 @@
 
                 <li><a href="/LienHe/LienHe.aspx"> Liên Hệ </a></li>
 
-                <li><a href="/DangNhap/DangNhap.aspx"> Đăng Nhập / Đăng Ký </a></li>
+                <asp:Label runat="server" ID="DangNhap"><li><a href="/DangNhap/DangNhap.aspx"> Đăng Nhập / Đăng Ký </a></li></asp:Label>
+
+                <asp:Label runat="server" ID="DangXuat"><li><a href="/DangNhap/DangXuat.aspx"> Đăng Xuất </a></li></asp:Label>
             </ul>
         </div>
 
@@ -66,8 +68,8 @@
             <div class="form">
                 <input type="text" class="form-control" name="name" id="name" placeholder="Tên" aria-invalid="true"/>
                 <input type="text" class="form-control" name="email" id="email" placeholder="Email" aria-invalid="true"/>
-                <input type="text" class="form-control" name="sub" id="sub" placeholder="Tieu de" aria-invalid="true"/>
-                <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Tạo thư tại đây" aria-invalid="true" style="height: 150px; resize: vertical;"> </textarea>
+                <input type="text" class="form-control" name="sub" id="sub" placeholder="Tiêu đề" aria-invalid="true"/>
+                <textarea name="message" class="form-control" id="message" placeholder="Tạo thư tại đây" aria-invalid="true" style="height: 150px;"> </textarea>
                 <input type="submit" value="Gửi Thư" class="btn"/>
             </div>
 
@@ -75,7 +77,6 @@
             <a href="#" _mstmutation="1">FACEBOOK|</a>
             <a href="#" _mstmutation="1">TWITTER</a>
             <a href="#" _mstmutation="1"> |INSTAGRAM</a>
-
         </div>
 
         <div class="footer">

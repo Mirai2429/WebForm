@@ -11,7 +11,7 @@ namespace WebFormDemo.DangNhap
 {
 
 
-    public partial class DangNhap
+    public partial class DangKy
     {
 
         /// <summary>
@@ -33,30 +33,48 @@ namespace WebFormDemo.DangNhap
         protected global::System.Web.UI.WebControls.TextBox TaiKhoan;
 
         /// <summary>
-        /// MatKhau control.
+        /// MatKhau1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox MatKhau;
+        protected global::System.Web.UI.WebControls.TextBox MatKhau1;
 
         /// <summary>
-        /// btnDangNhap control.
+        /// MatKhau2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnDangNhap;
+        protected global::System.Web.UI.WebControls.TextBox MatKhau2;
 
         /// <summary>
-        /// lbErrorMessage control.
+        /// btnDangKy control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbErrorMessage;
+        protected global::System.Web.UI.WebControls.Button btnDangKy;
+
+        /// <summary>
+        /// lbErrorMessage1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbErrorMessage1;
+
+        /// <summary>
+        /// lbErrorMessage2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbErrorMessage2;
     }
 }

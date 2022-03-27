@@ -43,7 +43,9 @@
 
             <li><a href="/LienHe/LienHe.aspx"> Liên Hệ </a></li>
 
-            <li><a href="/DangNhap/DangNhap.aspx"> Đăng Nhập / Đăng Ký </a></li>
+            <asp:Label runat="server" ID="DangNhap"><li><a href="/DangNhap/DangNhap.aspx"> Đăng Nhập / Đăng Ký </a></li></asp:Label>
+
+            <asp:Label runat="server" ID="DangXuat"><li><a href="/DangNhap/DangXuat.aspx"> Đăng Xuất </a></li></asp:Label>
         </ul>
     </div>
 

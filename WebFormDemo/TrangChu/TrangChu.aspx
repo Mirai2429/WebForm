@@ -45,8 +45,16 @@
 
                 <li><a href="/LienHe/LienHe.aspx"> Liên Hệ </a></li>
 
-                <li><a href="/DangNhap/DangNhap.aspx"> Đăng Nhập / Đăng Ký </a></li>
+                <asp:Label runat="server" ID="DangNhap"><li><a href="/DangNhap/DangNhap.aspx"> Đăng Nhập / Đăng Ký </a></li></asp:Label>
+
+                <asp:Label runat="server" ID="DangXuat"><li><a href="/DangNhap/DangXuat.aspx"> Đăng Xuất </a></li></asp:Label>
             </ul>
+        </div>
+
+        <div class="user">
+            <p style="text-align: left; margin-left: 10px; margin-top: 10px; margin-bottom: 5px;">
+                <asp:Label runat="server" id="Username" name="username" ForeColor="Black" Font-Size="20px" Font-Bold="true"></asp:Label>
+            </p>
         </div>
 
         <div class="search">

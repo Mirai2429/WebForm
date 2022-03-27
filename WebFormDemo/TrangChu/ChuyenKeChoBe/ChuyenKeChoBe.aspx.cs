@@ -11,7 +11,16 @@ namespace WebFormDemo.TrangChu.ChuyenKeChoBe
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["Name"] != null)
+            {
+                DangNhap.Visible = false;
+                DangXuat.Visible = true;
+            }
+            else
+            {
+                DangXuat.Visible = false;
+                DangNhap.Visible = true;
+            }
         }
     }
 }
