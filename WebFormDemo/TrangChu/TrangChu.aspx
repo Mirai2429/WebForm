@@ -10,7 +10,7 @@
     <script src="TimKiem.js"></script>
 </head>
 <body>
-    <form id="TrangChu" runat="server"  >
+    <form id="TrangChu" runat="server">
         <header>
             <h1>ĐỌC SÁCH ONLINE</h1>
         </header>
