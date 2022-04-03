@@ -64,8 +64,8 @@
 
         <div class="content" id="content">
             <div class="book">
-                <a href="ChuyenKeChoBe/ChuyenKeChoBe.aspx"> <img src="/img/TrangChu/chuyen_ke_cho_be.jpg" /> </a>
-                <h3 class="title"><a href="ChuyenKeChoBe/ChuyenKeChoBe.aspx">Chuyện kể cho bé</a></h3>
+                <a href="ChuyenKeChoBe/ChuyenKeChoBe.aspx" runat="server" onclick="LuotXem()"> <img src="/img/TrangChu/chuyen_ke_cho_be.jpg" /> </a> 
+                <h3 class="title"><a href="ChuyenKeChoBe/ChuyenKeChoBe.aspx" runat="server" onclick="LuotXem()">Chuyện kể cho bé</a></h3>
             </div>
 
             <div class="book">

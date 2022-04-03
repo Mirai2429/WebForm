@@ -57,6 +57,8 @@
             <div class="book">
                 <div class="book-img">
                     <img src="/img/TrangChu/truyen_ngan_nam_cao.jpg" style="width:250px; height:400px; margin-top: 30px;" />
+                    <br />
+                    <center><asp:Label id="LuotXem" runat="server" Font-Size="20px"></asp:Label></center>
                 </div>
 
                 <div class="book-content">

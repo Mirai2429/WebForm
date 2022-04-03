@@ -166,6 +166,7 @@
     <Content Include="TrangChu\ChuyenKeChoBe\Chapter\su-tich-hoa-mai-vang.aspx" />
     <Content Include="TrangChu\ChuyenKeChoBe\ChuyenKeChoBe.aspx" />
     <Content Include="TrangChu\ChuyenKeChoBe\ChuyenKeChoBe.css" />
+    <Content Include="TrangChu\LuotXem.js" />
     <Content Include="TrangChu\TimKiem.js" />
     <Content Include="TrangChu\TrangChu.aspx" />
     <Content Include="TrangChu\TrangChu.css" />

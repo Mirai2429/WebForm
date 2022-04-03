@@ -11,6 +11,9 @@ namespace WebFormDemo.TrangChu
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Application["view_ChuyenKeChoBe"] = 0;
+            Application["view_TruyenNganNamCao"] = 0;
+
             if (Session["Name"] != null)
             {
                 Username.Visible = true;

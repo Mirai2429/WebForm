@@ -103,16 +103,6 @@ header h1 {
     font-weight: bold;
 }
 
-/*.search button {
-    display: inline-block;
-    padding: 5px;
-    background-color: antiquewhite;
-    cursor: pointer;
-    border: groove;
-    font-weight: bold;
-    font-size: 15px;
-}*/
-
 .content {
     display: block;
 }
@@ -129,6 +119,10 @@ header h1 {
     margin-left: 85px;
     border: 2px solid black;
     padding: 15px;
+}
+
+.book label{
+    font-size: 15px;
 }
 
 .book a {

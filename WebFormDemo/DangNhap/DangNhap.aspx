@@ -35,6 +35,8 @@
 
                 <div class="item">
                     <asp:Label runat="server" ID="lbErrorMessage" Text="Tài khoản hoặc mật khẩu không đúng" ForeColor="Red"></asp:Label>
+                    <br />
+                    <asp:Label runat="server" ID="lbErrorCount" ForeColor="Red"></asp:Label>
                 </div>
 
                 <div class="item">

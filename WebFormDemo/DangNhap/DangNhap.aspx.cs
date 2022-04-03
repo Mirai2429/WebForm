@@ -14,28 +14,42 @@ namespace WebFormDemo.DangNhap
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-           lbErrorMessage.Visible = false;
+            lbErrorMessage.Visible = false;
+            lbErrorCount.Visible = false;
         }
 
         protected void Dang_Nhap(object sender, EventArgs e)
         {
-            SqlConnection constr = new SqlConnection(ConfigurationManager.ConnectionStrings["User"].ToString());
-            string TK = TaiKhoan.Text.Trim();
-            string MK = MatKhau.Text.Trim();
-            constr.Open();
-            string sql = "select * from Account where Username='" + TK + "' and Pass='" + MK + "'";
-            SqlCommand cmd = new SqlCommand(sql, constr);
-            SqlDataReader sdr = cmd.ExecuteReader();
-            if (sdr.Read())
+            if (IsPostBack)
             {
-                Session["Name"] = TK;
-                Response.Redirect("/TrangChu/TrangChu.aspx");
+                SqlConnection constr = new SqlConnection(ConfigurationManager.ConnectionStrings["User"].ToString());
+                string TK = TaiKhoan.Text.Trim();
+                string MK = MatKhau.Text.Trim();
+                constr.Open();
+                string sql = "select * from Account where Username='" + TK + "' and Pass='" + MK + "'";
+                SqlCommand cmd = new SqlCommand(sql, constr);
+                SqlDataReader sdr = cmd.ExecuteReader();
+                if (sdr.Read())
+                {
+                    Session["Name"] = TK;
+                    Response.Redirect("/TrangChu/TrangChu.aspx");
+                }
+                else
+                {
+                    lbErrorMessage.Visible = true;
+                    /*lbErrorCount.Visible = true;
+                    if (Session["dem"] == null)
+                    {
+                        Session["dem"] = 1;
+                    }
+                    else
+                    {
+                        Session["dem"] = (int)Session["dem"] + 1;
+                        lbErrorCount.Text = "Số lần sai: " + Session["dem"];
+                    }*/
+                }
+                constr.Close();
             }
-            else
-            {
-                lbErrorMessage.Visible = true;
-            }
-            constr.Close();
         }
     }  
 }

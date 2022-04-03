@@ -6,6 +6,7 @@
 <head runat="server">
     <title></title>
      <link rel="stylesheet" type="text/css" href="ChuyenKeChoBe.css" />
+    <script src="../LuotXem.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -57,6 +58,8 @@
             <div class="book">
                 <div class="book-img">
                     <img src="/img/TrangChu/chuyen_ke_cho_be.jpg" style="width:250px; height:400px; margin-top: 30px;" />
+                    <br />
+                    <center><asp:Label id="LuotXem" runat="server" Font-Size="20px"></asp:Label></center>
                 </div>
 
                 <div class="book-content">

@@ -11,6 +11,9 @@ namespace WebFormDemo.TrangChu.ChuyenKeChoBe
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Application["view_ChuyenKeChoBe"] = (int)Application["view_ChuyenKeChoBe"] + 1;
+            LuotXem.Text = "Lượt xem: " + Application["view_ChuyenKeChoBe"];
+
             if (Session["Name"] != null)
             {
                 DangNhap.Visible = false;
