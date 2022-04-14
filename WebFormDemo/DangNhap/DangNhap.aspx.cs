@@ -14,8 +14,7 @@ namespace WebFormDemo.DangNhap
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            lbErrorMessage.Visible = false;
-            lbErrorCount.Visible = false;
+            
         }
 
         protected void Dang_Nhap(object sender, EventArgs e)
@@ -36,9 +35,8 @@ namespace WebFormDemo.DangNhap
                 }
                 else
                 {
-                    lbErrorMessage.Visible = true;
-                    /*lbErrorCount.Visible = true;
-                    if (Session["dem"] == null)
+                    lbErrorMessage.Text = "Tài khoản hoặc mật khẩu không đúng";
+                    /*if (Session["dem"] == null)
                     {
                         Session["dem"] = 1;
                     }

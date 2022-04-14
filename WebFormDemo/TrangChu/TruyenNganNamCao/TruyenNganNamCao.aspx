@@ -51,7 +51,7 @@
 
         <div class="content">
             <div class="page">
-                <h3><a href="/TrangChu/TrangChu.aspx">Trang Chủ</a> >> <a href="TruyenNganNamCao.html">Truyện Ngắn Nam Cao</a></h3>
+                <h3><a href="/TrangChu/TrangChu.aspx">Trang Chủ</a> >> <a href="/TrangChu/TruyenNganNamCao/TruyenNganNamCao.aspx">Truyện Ngắn Nam Cao</a></h3>
             </div>
 
             <div class="book">

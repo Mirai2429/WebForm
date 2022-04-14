@@ -1,11 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ChuyenKeChoBe.aspx.cs" Inherits="WebFormDemo.TrangChu.ChuyenKeChoBe.ChuyenKeChoBe" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="TatDen.aspx.cs" Inherits="WebFormDemo.TrangChu.TatDen.TatDen" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-     <link rel="stylesheet" type="text/css" href="ChuyenKeChoBe.css" />
+    <link rel="stylesheet" type="text/css" href="TatDen.css" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -51,34 +51,34 @@
 
         <div class="content">
             <div class="page">
-                <h3><a href="/TrangChu/TrangChu.aspx">Trang Chủ</a> >> <a href="ChuyenKeChoBe.aspx">Chuyện kể cho bé</a></h3>
+                <h3><a href="/TrangChu/TrangChu.aspx">Trang Chủ</a> >> <a href="/TrangChu/TatDen/TatDen.aspx"> Tắt Đèn </a></h3>
             </div>
 
             <div class="book">
                 <div class="book-img">
-                    <img src="/img/TrangChu/chuyen_ke_cho_be.jpg" style="width:250px; height:400px; margin-top: 30px;" />
+                    <img src="/img/TrangChu/tat_den.jpg" style="width:250px; height:400px; margin-top: 30px;" />
                     <br />
                     <center><asp:Label id="LuotXem" runat="server" Font-Size="20px"></asp:Label></center>
                 </div>
 
                 <div class="book-content">
-                    <h1> Chuyện kể cho bé </h1>
+                    <h1> Tắt Đèn </h1>
                     <br />
                     <br />
-                    <a class="btn" href="Chapter/con-coc-la-cau-ong-troi.aspx"> Bắt đầu đọc </a>
+                    <a class="btn" href="Chapter/chuong-i.aspx"> Bắt đầu đọc </a>
                 </div>
             </div>
 
             <div>
-                <h1 style="margin-top:10px; font-size: 40px; margin-left: 50px;">Nội dung</h1>
+                <h1 style="margin-top: 10px; margin-left: 50px; font-size: 40px;">Nội dung</h1>
                 <ul class="chapter">
-                    <li><a href="Chapter/con-coc-la-cau-ong-troi.aspx">Con cóc là cậu ông trời </a></li>
-                    <li><a href="Chapter/doi-ngong.aspx">Đôi ngỗng </a></li>
-                    <li><a href="Chapter/chu-voi-tot-bung.aspx">Chú voi tốt bụng </a></li>
-                    <li><a href="Chapter/con-ca-thong-minh.aspx">Con cá thông minh </a></li>
-                    <li><a href="Chapter/loi-yeu-cua-con.aspx">Lời yêu của con </a></li>
-                    <li><a href="Chapter/chang-trai-mo-coi.aspx">Chuyện chàng mồ côi </a></li>
-                    <li><a href="Chapter/su-tich-hoa-mai-vang.aspx">Sự tích hoa mai vàng </a></li>
+                    <li><a href="Chapter/chuong-i.aspx">Chương I</a></li>
+                    <li><a href="Chapter/chuong-ii.aspx">Chương II</a></li>
+                    <li><a href="Chapter/chuong-iii.aspx">Chương III</a></li>
+                    <li><a href="Chapter/chuong-iv.aspx">Chương IV</a></li>
+                    <li><a href="Chapter/chuong-v.aspx">Chương V</a></li>
+                    <li><a href="Chapter/chuong-vi.aspx">Chương VI</a></li>
+                    <li><a href="Chapter/chuong-vii.aspx">Chương VII</a></li>
                 </ul>
             </div>
         </div>

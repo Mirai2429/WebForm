@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebFormDemo.DangNhap
+namespace WebFormDemo.TrangChu.TatDen
 {
 
 
-    public partial class DangKy
+    public partial class TatDen
     {
 
         /// <summary>
@@ -24,48 +24,30 @@ namespace WebFormDemo.DangNhap
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// TaiKhoan control.
+        /// DangNhap control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TaiKhoan;
+        protected global::System.Web.UI.WebControls.Label DangNhap;
 
         /// <summary>
-        /// MatKhau1 control.
+        /// DangXuat control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox MatKhau1;
+        protected global::System.Web.UI.WebControls.Label DangXuat;
 
         /// <summary>
-        /// MatKhau2 control.
+        /// LuotXem control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox MatKhau2;
-
-        /// <summary>
-        /// btnDangKy control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnDangKy;
-
-        /// <summary>
-        /// lbErrorMessage control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbErrorMessage;
+        protected global::System.Web.UI.WebControls.Label LuotXem;
     }
 }

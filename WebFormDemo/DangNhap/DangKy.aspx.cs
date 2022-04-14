@@ -14,8 +14,7 @@ namespace WebFormDemo.DangNhap
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            lbErrorMessage1.Visible = false;
-            lbErrorMessage2.Visible = false;
+            
         }
 
         private int CheckUsername()
@@ -36,25 +35,6 @@ namespace WebFormDemo.DangNhap
 
         protected void Dang_Ky(object sender, EventArgs e)
         {
-            /*string constr = ConfigurationManager.ConnectionStrings["User"].ToString();
-            SqlConnection sqlConnection = new SqlConnection(constr);
-            SqlCommand sqlCommand = new SqlCommand("DangKy", sqlConnection);
-            sqlCommand.CommandType = CommandType.StoredProcedure;
-            sqlCommand.Parameters.AddWithValue("@Username", TaiKhoan.Text);
-            sqlCommand.Parameters.AddWithValue("@Pass", MatKhau1.Text);
-            sqlConnection.Open();
-            sqlCommand.ExecuteNonQuery();
-
-            if (CheckUsername() == 0)
-            {
-                Session["Name"] = TaiKhoan.Text;
-                Response.Redirect("/TrangChu/TrangChu.aspx");
-            } 
-            else
-            {
-                lbErrorMessage2.Visible = true;
-            }*/
-
             SqlConnection constr = new SqlConnection(ConfigurationManager.ConnectionStrings["User"].ToString());
             string TK = TaiKhoan.Text.Trim();
             constr.Open();
@@ -63,15 +43,15 @@ namespace WebFormDemo.DangNhap
             SqlDataReader sdr = cmd.ExecuteReader();
             if (sdr.Read()) // Đã tồn tại tài khoản thì không thể đăng ký
             {
-                lbErrorMessage2.Visible = true;
+                lbErrorMessage.Text = "Tài khoản đã tồn tại";
             }
             else
             {
-                if (MatKhau1.Text != MatKhau2.Text)
+                if (MatKhau1.Text.ToUpper() != MatKhau2.Text.ToUpper())
                 {
-                    lbErrorMessage1.Visible = true;
+                    lbErrorMessage.Text = "Mật khẩu không trùng khớp";
                 }
-                else 
+                else
                 {
                     Session["Name"] = TK;
                     Response.Redirect("/TrangChu/TrangChu.aspx");

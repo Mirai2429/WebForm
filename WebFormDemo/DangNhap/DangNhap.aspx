@@ -6,6 +6,7 @@
 <head runat="server">
     <title></title>
     <link rel="stylesheet" type="text/css" href="DangNhap.css" />
+    <%--<script src="Check.js"></script>--%>
 </head>
 <body>
     <form id="form1" runat="server" action="DangNhap.aspx">
@@ -34,9 +35,9 @@
                 </div>
 
                 <div class="item">
-                    <asp:Label runat="server" ID="lbErrorMessage" Text="Tài khoản hoặc mật khẩu không đúng" ForeColor="Red"></asp:Label>
+                    <asp:Label runat="server" id="lbErrorMessage" ForeColor="Red"></asp:Label>
                     <br />
-                    <asp:Label runat="server" ID="lbErrorCount" ForeColor="Red"></asp:Label>
+                    <asp:Label runat="server" id="lbErrorCount" ForeColor="Red"></asp:Label>
                 </div>
 
                 <div class="item">

@@ -42,7 +42,7 @@ header h1 {
     background-color: antiquewhite;
 }
 
-.menu li:hover a{
+.menu li:hover a {
     color: black;
 }
 
@@ -69,7 +69,7 @@ header h1 {
     background-color: antiquewhite;
 }
 
-.menu ul li:hover .sub-menu a{
+.menu ul li:hover .sub-menu a {
     color: black;
 }
 
@@ -77,60 +77,74 @@ header h1 {
     background-color: black;
 }
 
-.menu ul li:hover .sub-menu li:hover a{
-     color: antiquewhite;
-}
-
-.search {
-    margin-top: 20px !important;
-    margin-right: 85px;
-    margin-left: auto;
-    border: groove;
-    width: 17%;
-    padding: 5px;
-}
-
-.search input {
-    border: none;
-    font-size: 15px;
-    margin-left: 10px;
-    outline: none;
-}
-
-.search input[type=text] {
-    border: none;
-    background-color: none;
-    font-weight: bold;
+.menu ul li:hover .sub-menu li:hover a {
+    color: antiquewhite;
 }
 
 .content {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
     display: block;
 }
 
-.title {
-    margin-top: 10px;
+.page a {
+    text-decoration: none;
+    color: dodgerblue;
+    font-size: 30px;
+}
+
+.page a:hover {
+    color: red;
 }
 
 .book {
-    display: inline-block;
+    display: flex;
+}
+
+.book .book-content {
+    margin-left: 50px;
+    margin-top: 20px;
+    color: brown;
+    font-size: 22px;
+    font-weight: bold;
     text-align: center;
-    margin-top: 70px;
-    margin-left: 85px;
-    border: 2px solid black;
-    padding: 15px;
+    text-decoration: none;
 }
 
-.book label{
-    font-size: 15px;
-}
-
-.book a {
+.book .book-content .btn {
+    border: 0.5px solid white;
+    padding: 20px;
     text-decoration: none;
     color: black;
+    background-color: antiquewhite;
 }
 
-.book a:hover {
-    color: dodgerblue;
+.book .book-content .btn:hover {
+    color: coral;
+}
+
+.content .chapter li {
+    list-style: decimal-leading-zero;
+    color: black;
+    font-size: 25px;
+    font-weight: bold; 
+}
+
+.content .chapter { 
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.content .chapter a{
+    text-decoration: none;
+    color: blue;
+    font-size: 25px;
+}
+
+.content .chapter  a:hover {
+    color: red;
 }
 
 .footer {
@@ -146,15 +160,14 @@ header h1 {
     margin-left: 230px;
 }
 
-
 .ft li {
     list-style: none;
 }
 
-.ft a{
+.ft a {
     text-decoration: none;
     color: brown;
-}
+ }
 
 @media only screen and (max-width: 768px){
     header {
@@ -189,32 +202,34 @@ header h1 {
         background-color: antiquewhite;
     }
 
-    .search {
-        margin-top: 20px !important;
-        margin-left: 10px;
-        border: groove;
-        width: 50%;
-        padding: 5px;
-    }
-
-    .search input {
-        border: none;
-        font-size: 15px;
-        margin-left: 10px;
-        outline: none;
-    }
-
-    .content {
-        display: block;
-    }
-
-    .book {
-        display: inline-block;
-        text-align: center;
-        border: 2px solid black;
-        padding: 10px;
+    .page a {
+        text-decoration: none;
+        color: dodgerblue;
+        font-size: 20px;
         margin: 10px;
-        font-size: 12px;
+    }
+
+    .book .book-img img {
+        width: 170px !important;
+        height: 300px !important;
+        margin-left: 20px;
+    }
+
+    .book .book-content {
+        font-size: 15px;
+    }
+
+    .content h1 {
+        font-size: 30px !important;
+    }
+
+    .content .chapter li {
+        margin-left: 20px;
+        font-size: 15px;
+    }
+
+    .content .chapter a {
+        font-size: 15px;
     }
 
     .ft {
@@ -225,3 +240,4 @@ header h1 {
         margin: 25px;
     }
 }
+

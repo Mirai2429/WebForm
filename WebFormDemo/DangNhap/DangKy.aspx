@@ -6,9 +6,10 @@
 <head runat="server">
     <title></title>
     <link rel="stylesheet" type="text/css" href="DangKy.css" />
+    <%--<script src="CheckDK.js"></script>--%>
 </head>
 <body>
-    <form id="form1" runat="server" onsubmit="return Check()">
+    <form id="form1" runat="server" action="DangKy.aspx">
         <div class="container">
             <div class="register">
                 <div class="back">
@@ -43,9 +44,7 @@
                 </div>
 
                 <div class="item">
-                    <asp:Label runat="server" ID="lbErrorMessage1" Text="Mật khẩu không trùng khớp" ForeColor="Red"></asp:Label>
-                    <br />
-                    <asp:Label runat="server" ID="lbErrorMessage2" Text="Tài khoản đã tồn tại" ForeColor="Red"></asp:Label>
+                    <asp:Label runat="server" id="lbErrorMessage"  ForeColor="Red"></asp:Label>
                 </div>
             </div>
         </div>

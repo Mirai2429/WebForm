@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DangNhap\Check.js" />
+    <Content Include="DangNhap\CheckDK.js" />
     <Content Include="DangNhap\DangKy.aspx" />
     <Content Include="DangNhap\DangKy.css" />
     <Content Include="DangNhap\DangNhap.aspx" />
@@ -166,7 +168,17 @@
     <Content Include="TrangChu\ChuyenKeChoBe\Chapter\su-tich-hoa-mai-vang.aspx" />
     <Content Include="TrangChu\ChuyenKeChoBe\ChuyenKeChoBe.aspx" />
     <Content Include="TrangChu\ChuyenKeChoBe\ChuyenKeChoBe.css" />
+    <Content Include="TrangChu\Filter.js" />
     <Content Include="TrangChu\LuotXem.js" />
+    <Content Include="TrangChu\TatDen\Chapter\chuong-i.aspx" />
+    <Content Include="TrangChu\TatDen\Chapter\chuong-ii.aspx" />
+    <Content Include="TrangChu\TatDen\Chapter\chuong-iii.aspx" />
+    <Content Include="TrangChu\TatDen\Chapter\chuong-iv.aspx" />
+    <Content Include="TrangChu\TatDen\Chapter\chuong-v.aspx" />
+    <Content Include="TrangChu\TatDen\Chapter\chuong-vi.aspx" />
+    <Content Include="TrangChu\TatDen\Chapter\chuong-vii.aspx" />
+    <Content Include="TrangChu\TatDen\TatDen.aspx" />
+    <Content Include="TrangChu\TatDen\TatDen.css" />
     <Content Include="TrangChu\TimKiem.js" />
     <Content Include="TrangChu\TrangChu.aspx" />
     <Content Include="TrangChu\TrangChu.css" />
@@ -307,6 +319,62 @@
     </Compile>
     <Compile Include="TrangChu\ChuyenKeChoBe\ChuyenKeChoBe.aspx.designer.cs">
       <DependentUpon>ChuyenKeChoBe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\TatDen\Chapter\chuong-i.aspx.cs">
+      <DependentUpon>chuong-i.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\TatDen\Chapter\chuong-i.aspx.designer.cs">
+      <DependentUpon>chuong-i.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\TatDen\Chapter\chuong-ii.aspx.cs">
+      <DependentUpon>chuong-ii.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\TatDen\Chapter\chuong-ii.aspx.designer.cs">
+      <DependentUpon>chuong-ii.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\TatDen\Chapter\chuong-iii.aspx.cs">
+      <DependentUpon>chuong-iii.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\TatDen\Chapter\chuong-iii.aspx.designer.cs">
+      <DependentUpon>chuong-iii.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\TatDen\Chapter\chuong-iv.aspx.cs">
+      <DependentUpon>chuong-iv.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\TatDen\Chapter\chuong-iv.aspx.designer.cs">
+      <DependentUpon>chuong-iv.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\TatDen\Chapter\chuong-v.aspx.cs">
+      <DependentUpon>chuong-v.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\TatDen\Chapter\chuong-v.aspx.designer.cs">
+      <DependentUpon>chuong-v.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\TatDen\Chapter\chuong-vi.aspx.cs">
+      <DependentUpon>chuong-vi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\TatDen\Chapter\chuong-vi.aspx.designer.cs">
+      <DependentUpon>chuong-vi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\TatDen\Chapter\chuong-vii.aspx.cs">
+      <DependentUpon>chuong-vii.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\TatDen\Chapter\chuong-vii.aspx.designer.cs">
+      <DependentUpon>chuong-vii.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\TatDen\TatDen.aspx.cs">
+      <DependentUpon>TatDen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\TatDen\TatDen.aspx.designer.cs">
+      <DependentUpon>TatDen.aspx</DependentUpon>
     </Compile>
     <Compile Include="TrangChu\TrangChu.aspx.cs">
       <DependentUpon>TrangChu.aspx</DependentUpon>

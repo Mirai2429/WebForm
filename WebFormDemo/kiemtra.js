@@ -55,7 +55,7 @@ function checkemail() {
 function checkten() {
     var hoten = document.getElementById("hoten").value;
     var loi_hoten = document.getElementById("loi_hoten");
-    if (hoten.indexOf() {
+    if (hoten.indexOf()) {
         loi_hoten.innerHTML = "ten khong dc chua ki tu so";
         return false;
     } else {

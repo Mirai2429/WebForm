@@ -5,26 +5,22 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace WebFormDemo.TrangChu
+namespace WebFormDemo.TrangChu.TatDen
 {
-    public partial class TrangChu : System.Web.UI.Page
+    public partial class TatDen : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Application["view_ChuyenKeChoBe"] = 0;
-            Application["view_TruyenNganNamCao"] = 0;
-            Application["view_TatDen"] = 0;
+            Application["view_TatDen"] = (int)Application["view_TatDen"] + 1;
+            LuotXem.Text = "Lượt xem: " + Application["view_TatDen"];
 
             if (Session["Name"] != null)
             {
-                Username.Visible = true;
-                Username.Text = "Xin chào: " + Session["Name"];
                 DangNhap.Visible = false;
                 DangXuat.Visible = true;
             }
             else
             {
-                Username.Visible = false;
                 DangXuat.Visible = false;
                 DangNhap.Visible = true;
             }
