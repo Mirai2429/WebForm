@@ -11,7 +11,7 @@ namespace WebFormDemo.TrangChu.TruyenNganNamCao
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Application["view_TruyenNganNamCao"] = (int)Application["view_TruyenNganNamCao"] + 1;
+            /*Application["view_TruyenNganNamCao"] = (int)Application["view_TruyenNganNamCao"] + 1;
             LuotXem.Text = "Lượt xem: " + Application["view_TruyenNganNamCao"];
 
             if (Session["Name"] != null)
@@ -23,7 +23,7 @@ namespace WebFormDemo.TrangChu.TruyenNganNamCao
             {
                 DangXuat.Visible = false;
                 DangNhap.Visible = true;
-            }
+            }*/
         }
     }
 }

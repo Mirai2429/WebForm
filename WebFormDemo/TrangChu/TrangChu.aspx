@@ -191,6 +191,10 @@
                 </ul>
             </div>
         </div>
+
+        <div class="Visitors" style="text-align:center; background-color: gray; color: white; font-size: 20px; padding: 5px;">
+            <asp:Label runat="server" ID="Visitors"></asp:Label>
+        </div>
     </form>
 </body>
 </html>

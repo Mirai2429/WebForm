@@ -11,6 +11,7 @@ namespace WebFormDemo
     {
         protected void Application_Start(object sender, EventArgs e)
         {
+            /*Application["Visitors"] = 0;*/
             /*Application["danhsach_nv"] = new List<NhanVien>();
             NhanVien nv = new NhanVien();
             nv.Hoten = "Nguyen Van A";
@@ -26,7 +27,7 @@ namespace WebFormDemo
 
         protected void Session_Start(object sender, EventArgs e)
         {
-
+            /*Application["Visitors"] = (int)Application["Visitors"] + 1;*/
         }
 
         protected void Application_BeginRequest(object sender, EventArgs e)

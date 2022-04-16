@@ -11,7 +11,9 @@ namespace WebFormDemo.TrangChu
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Application["view_ChuyenKeChoBe"] = 0;
+            /*Visitors.Text = "Số lượt truy cập: " + Application["Visitors"].ToString();*/
+
+            /*Application["view_ChuyenKeChoBe"] = 0;
             Application["view_TruyenNganNamCao"] = 0;
             Application["view_TatDen"] = 0;
 
@@ -27,7 +29,7 @@ namespace WebFormDemo.TrangChu
                 Username.Visible = false;
                 DangXuat.Visible = false;
                 DangNhap.Visible = true;
-            }
+            }*/
         }
     }
 }

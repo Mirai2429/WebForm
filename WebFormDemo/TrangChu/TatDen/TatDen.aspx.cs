@@ -11,7 +11,7 @@ namespace WebFormDemo.TrangChu.TatDen
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Application["view_TatDen"] = (int)Application["view_TatDen"] + 1;
+            /*Application["view_TatDen"] = (int)Application["view_TatDen"] + 1;
             LuotXem.Text = "Lượt xem: " + Application["view_TatDen"];
 
             if (Session["Name"] != null)
@@ -23,7 +23,7 @@ namespace WebFormDemo.TrangChu.TatDen
             {
                 DangXuat.Visible = false;
                 DangNhap.Visible = true;
-            }
+            }*/
         }
     }
 }

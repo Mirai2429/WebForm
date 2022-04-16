@@ -17,7 +17,7 @@ function CheckDK() {
         else if (mk1.match(correct) && mk2.match(correct)) {
             return true;
         } else {
-            document.getElementById("lbErrorMessage").innerHTML = "Mật khẩu phải chứa số, kí tự đặc biệt và kí tự viết hoa";
+            document.getElementById("lbErrorMessage").innerHTML = "Mật khẩu phải chứa số và kí tự viết hoa";
             return false;
         }
     }
