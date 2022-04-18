@@ -11,11 +11,11 @@ namespace WebFormDemo.TrangChu
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            /*Visitors.Text = "Số lượt truy cập: " + Application["Visitors"].ToString();*/
+            //Visitors.Text = "Số lượt truy cập: " + Application["Visitors"].ToString();
 
-            /*Application["view_ChuyenKeChoBe"] = 0;
-            Application["view_TruyenNganNamCao"] = 0;
-            Application["view_TatDen"] = 0;
+            //Application["view_ChuyenKeChoBe"] = 0;
+            //Application["view_TruyenNganNamCao"] = 0;
+            //Application["view_TatDen"] = 0;
 
             if (Session["Name"] != null)
             {
@@ -29,7 +29,7 @@ namespace WebFormDemo.TrangChu
                 Username.Visible = false;
                 DangXuat.Visible = false;
                 DangNhap.Visible = true;
-            }*/
+            }
         }
     }
 }

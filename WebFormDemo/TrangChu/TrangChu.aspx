@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="TrangChu.css" />
     <link rel="stylesheet"  href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
     <script src="TimKiem.js"></script>
+    <script src="Filter.js"></script>
 </head>
 <body>
     <form id="TrangChu" runat="server">
@@ -62,63 +63,69 @@
             <input type="text" id="txtSearch" onkeyup="Search()" placeholder="Tìm Kiếm"/>
         </div>
 
+        <div class="btns">
+            <button type="button" data-menu="all" onclick="Filtering()">All</button>
+            <button type="button" data-menu="chuyen" onclick="Filtering()">Chuyen</button>
+            <button type="button" data-menu="vanhoc" onclick="Filtering()">Van Hoc</button>
+        </div>
+
         <div class="content" id="content">
-            <div class="book" data-category="chuyen">
+            <div class="book" data-menu="chuyen">
                 <a href="ChuyenKeChoBe/ChuyenKeChoBe.aspx"><img src="/img/TrangChu/chuyen_ke_cho_be.jpg" /> </a> 
                 <h3 class="title"><a href="ChuyenKeChoBe/ChuyenKeChoBe.aspx">Chuyện kể cho bé</a></h3>
             </div>
 
-            <div class="book" data-category="vanhoc">
+            <div class="book" data-menu="vanhoc">
                 <a href="TruyenNganNamCao/TruyenNganNamCao.aspx"><img src="/img/TrangChu/truyen_ngan_nam_cao.jpg" /> </a>
                 <h3 class="title"><a href="TruyenNganNamCao/TruyenNganNamCao.aspx">Truyện ngắn Nam Cao</a></h3>
             </div>
 
-            <div class="book" data-category="vanhoc">
+            <div class="book" data-menu="vanhoc">
                 <a href="TatDen/TatDen.aspx"><img src="/img/TrangChu/tat_den.jpg" /></a>
                 <h3 class="title"><a href="TatDen/TatDen.aspx">Tắt đèn</a></h3>
             </div>
 
-            <div class="book" data-category="vanhoc">
+            <div class="book" data-menu="vanhoc">
                 <img src="/img/TrangChu/so_do.jpg" />
                 <h3 class="title"><a href="#">Số đỏ</a></h3>
             </div>
 
-            <div class="book" data-category="vanhoc">
+            <div class="book" data-menu="vanhoc">
                 <img src="/img/TrangChu/song_mon.jpg" />
                 <h3 class="title"><a href="#">Sống mòn</a></h3>
             </div>
 
-            <div class="book" data-category="vanhoc">
+            <div class="book" data-menu="vanhoc">
                 <img src="/img/TrangChu/doan_tuyet.jpg" />
                 <h3 class="title"><a href="#">Đoạn tuyệt</a></h3>
             </div>
 
-            <div class="book" data-category="vanhoc">
+            <div class="book" data-menu="vanhoc">
                 <img src="/img/TrangChu/phong_than_dien_nghia.jpg" />
                 <h3 class="title"><a href="#">Phong thần diễn nghĩa</a></h3>
             </div>
 
-            <div class="book" data-category="vanhoc">
+            <div class="book" data-menu="vanhoc">
                 <img src="/img/TrangChu/tam_quoc_dien_nghia.jpg" />
                 <h3 class="title"><a href="#">Tam quốc diễn nghĩa</a></h3>
             </div>
 
-            <div class="book" data-category="vanhoc">
+            <div class="book" data-menu="vanhoc">
                 <img src="/img/TrangChu/co_hoc_tinh_hoa.jpg" />
                 <h3 class="title"><a href="#">Cổ học tinh hoa</a></h3>
             </div>
 
-            <div class="book" data-category="vanhoc">
+            <div class="book" data-menu="vanhoc">
                 <img src="/img/TrangChu/hong_lau_mong.jpg" />
                 <h3 class="title"><a href="#">Hồng lâu mộng</a></h3>
             </div>
 
-            <div class="book" data-category="vanhoc">
+            <div class="book" data-menu="vanhoc">
                 <img src="/img/TrangChu/viet_nam_su_luoc.jpg" />
                 <h3 class="title"><a href="#">Việt Nam sử lược</a></h3>
             </div>
 
-            <div class="book" data-category="vanhoc">
+            <div class="book" data-menu="vanhoc">
                 <img src="/img/TrangChu/giong_to.jpg" />
                 <h3 class="title"><a href="#">Giông tố</a></h3>
             </div>
@@ -192,7 +199,7 @@
             </div>
         </div>
 
-        <div class="Visitors" style="text-align:center; background-color: gray; color: white; font-size: 20px; padding: 5px;">
+        <div style="text-align:center; background-color: gray; color: white; font-size: 20px; padding: 5px;">
             <asp:Label runat="server" ID="Visitors"></asp:Label>
         </div>
     </form>
