@@ -123,11 +123,6 @@ header h1 {
     color: #fff;
 }
 
-.btns button.active {
-    background: blueviolet;
-    color: #fff;
-}
-
 /*---------------------------------------------------*/
 .content {
     display: block;

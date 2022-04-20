@@ -58,9 +58,8 @@ function Filtering() {
                     block.style.height = `325px`;
                 })
             }
-
-
         })
     })
 }
+
 
