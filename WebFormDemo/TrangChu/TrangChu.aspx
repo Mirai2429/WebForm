@@ -35,7 +35,6 @@
                         Review Sách
                         <ul class="sub-menu">
                             <li><a href="/ReviewSach/SachHayNenDoc/SachHayNenDoc.aspx">Sách Hay Nên Đọc</a></li>
-                            <li><a href="#">Cafe Sách</a></li>
                         </ul>
                     </a>
                 </li>
