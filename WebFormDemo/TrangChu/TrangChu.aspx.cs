@@ -16,6 +16,7 @@ namespace WebFormDemo.TrangChu
             //Application["view_ChuyenKeChoBe"] = 0;
             //Application["view_TruyenNganNamCao"] = 0;
             //Application["view_TatDen"] = 0;
+            //Application["view_SoDo"] = 0;
 
             if (Session["Name"] != null)
             {

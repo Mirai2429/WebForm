@@ -170,6 +170,15 @@
     <Content Include="TrangChu\ChuyenKeChoBe\ChuyenKeChoBe.css" />
     <Content Include="TrangChu\Filter.js" />
     <Content Include="TrangChu\LuotXem.js" />
+    <Content Include="TrangChu\SoDo\Chapter\chuong-1.aspx" />
+    <Content Include="TrangChu\SoDo\Chapter\chuong-2.aspx" />
+    <Content Include="TrangChu\SoDo\Chapter\chuong-3.aspx" />
+    <Content Include="TrangChu\SoDo\Chapter\chuong-4.aspx" />
+    <Content Include="TrangChu\SoDo\Chapter\chuong-5.aspx" />
+    <Content Include="TrangChu\SoDo\Chapter\chuong-6.aspx" />
+    <Content Include="TrangChu\SoDo\Chapter\chuong-7.aspx" />
+    <Content Include="TrangChu\SoDo\SoDo.aspx" />
+    <Content Include="TrangChu\SoDo\SoDo.css" />
     <Content Include="TrangChu\Sort.js" />
     <Content Include="TrangChu\TatDen\Chapter\chuong-i.aspx" />
     <Content Include="TrangChu\TatDen\Chapter\chuong-ii.aspx" />
@@ -320,6 +329,62 @@
     </Compile>
     <Compile Include="TrangChu\ChuyenKeChoBe\ChuyenKeChoBe.aspx.designer.cs">
       <DependentUpon>ChuyenKeChoBe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\SoDo\Chapter\chuong-1.aspx.cs">
+      <DependentUpon>chuong-1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\SoDo\Chapter\chuong-1.aspx.designer.cs">
+      <DependentUpon>chuong-1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\SoDo\Chapter\chuong-2.aspx.cs">
+      <DependentUpon>chuong-2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\SoDo\Chapter\chuong-2.aspx.designer.cs">
+      <DependentUpon>chuong-2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\SoDo\Chapter\chuong-3.aspx.cs">
+      <DependentUpon>chuong-3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\SoDo\Chapter\chuong-3.aspx.designer.cs">
+      <DependentUpon>chuong-3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\SoDo\Chapter\chuong-4.aspx.cs">
+      <DependentUpon>chuong-4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\SoDo\Chapter\chuong-4.aspx.designer.cs">
+      <DependentUpon>chuong-4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\SoDo\Chapter\chuong-5.aspx.cs">
+      <DependentUpon>chuong-5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\SoDo\Chapter\chuong-5.aspx.designer.cs">
+      <DependentUpon>chuong-5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\SoDo\Chapter\chuong-6.aspx.cs">
+      <DependentUpon>chuong-6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\SoDo\Chapter\chuong-6.aspx.designer.cs">
+      <DependentUpon>chuong-6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\SoDo\Chapter\chuong-7.aspx.cs">
+      <DependentUpon>chuong-7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\SoDo\Chapter\chuong-7.aspx.designer.cs">
+      <DependentUpon>chuong-7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu\SoDo\SoDo.aspx.cs">
+      <DependentUpon>SoDo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu\SoDo\SoDo.aspx.designer.cs">
+      <DependentUpon>SoDo.aspx</DependentUpon>
     </Compile>
     <Compile Include="TrangChu\TatDen\Chapter\chuong-i.aspx.cs">
       <DependentUpon>chuong-i.aspx</DependentUpon>

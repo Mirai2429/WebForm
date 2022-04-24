@@ -1,0 +1,244 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100px;
+    color: black;
+}
+
+header h1 {
+    padding: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.menu ul {
+    background-color: black;
+    text-align: center;
+    height: fit-content;
+    margin-top: 0;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu li:hover {
+    background-color: antiquewhite;
+}
+
+.menu li:hover a {
+    color: black;
+}
+
+.menu ul li:hover ul {
+    width: 100%;
+    top: 50px;
+    left: 0px;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+}
+
+.menu ul li:hover .sub-menu {
+    display: block;
+}
+
+.menu ul li:hover .sub-menu li {
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    padding: 15px 1px;
+    background-color: antiquewhite;
+}
+
+.menu ul li:hover .sub-menu a {
+    color: black;
+}
+
+.menu ul li:hover .sub-menu li:hover {
+    background-color: black;
+}
+
+.menu ul li:hover .sub-menu li:hover a {
+    color: antiquewhite;
+}
+
+.content {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    display: block;
+}
+
+.page a {
+    text-decoration: none;
+    color: dodgerblue;
+    font-size: 30px;
+}
+
+.page a:hover {
+    color: red;
+}
+
+.book {
+    display: flex;
+}
+
+.book .book-content {
+    margin-left: 50px;
+    margin-top: 20px;
+    color: brown;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.book .book-content .btn {
+    border: 0.5px solid white;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: antiquewhite;
+}
+
+.book .book-content .btn:hover {
+    color: coral;
+}
+
+.content .chapter li {
+    list-style: decimal-leading-zero;
+    color: black;
+    font-size: 25px;
+    font-weight: bold; 
+}
+
+.content .chapter { 
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.content .chapter a{
+    text-decoration: none;
+    color: blue;
+    font-size: 25px;
+}
+
+.content .chapter  a:hover {
+    color: red;
+}
+
+.footer {
+    display: block;
+    background-color: antiquewhite;
+    margin-top: 150px;
+}
+
+.ft {
+    display: inline-block;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-left: 230px;
+}
+
+.ft li {
+    list-style: none;
+}
+
+.ft a {
+    text-decoration: none;
+    color: brown;
+ }
+
+@media only screen and (max-width: 768px){
+    header {
+        height: 60px;
+    }
+
+    header h1 {
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .menu li {
+        list-style: none;
+        display: inline-block;
+        position: relative;
+        padding: 15px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .menu ul li:hover ul {
+        width: 100%;
+        top: 40px;
+        left: 0px;
+    }
+
+    .menu ul li:hover .sub-menu li {
+        font-size: 10px;
+        display: block;
+        text-align: center;
+        padding: 10px 1px;
+        background-color: antiquewhite;
+    }
+
+    .page a {
+        text-decoration: none;
+        color: dodgerblue;
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .book .book-img img {
+        width: 170px !important;
+        height: 300px !important;
+        margin-left: 20px;
+    }
+
+    .book .book-content {
+        font-size: 15px;
+    }
+
+    .content h1 {
+        font-size: 30px !important;
+    }
+
+    .content .chapter li {
+        margin-left: 20px;
+        font-size: 15px;
+    }
+
+    .content .chapter a {
+        font-size: 15px;
+    }
+
+    .ft {
+        display: inline-block;
+        margin-top: 50px !important;
+        margin-bottom: 80px !important;
+        font-size: 12px;
+        margin: 25px;
+    }
+}
+
+
